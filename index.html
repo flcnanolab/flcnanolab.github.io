@@ -1,1 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fort Lewis College Nano Lab</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Add MathJax for rendering mathematical expressions -->
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <style>
+    :root {
+      --primary-dark: #004b8d;
+      --primary-medium: #007DC3;
+      --accent: #FDBB30;
+      --light-bg: #f5f7fa;
+      --white: #ffffff;
+      --text: #333333;
+    }
+    
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--light-bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    
+    header {
+      background: var(--primary-dark);
+      color: var(--white);
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    
+    header p {
+      margin: 5px 0 0;
+      color: var(--accent);
+      font-size: 1.2em;
+    }
+    
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: var(--white);
+    }
+    
+    .sidebar {
+      width: 250px;
+      background: var(--white);
+      padding: 20px;
+      border-right: 1px solid #e0e0e0;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+    
+    .sidebar-section {
+      margin-bottom: 30px;
+    }
+    
+    .sidebar-section h3 {
+      margin-top: 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e0e0e0;
+      color: var(--primary-dark);
+      font-size: 1.1em;
+    }
+    
+    .sidebar-section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .sidebar-section ul li {
+      margin-bottom: 8px;
+    }
+    
+    .sidebar-section ul li a {
+      text-decoration: none;
+      color: var(--text);
+      transition: color 0.2s;
+      display: block;
+      padding: 5px 0;
+    }
+    
+    .sidebar-section ul li a:hover {
+      color: var(--primary-dark);
+    }
+    
+    .main-content {
+      flex: 1;
+      padding: 20px;
+      background: var(--white);
+    }
+    
+    footer {
+      background: var(--primary-dark);
+      color: var(--white);
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
 
+    /* Enhanced table styling */
+    table {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      border-collapse: collapse;
+    }
+    
+    table th, 
+    table td {
+      padding: 1rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+    }
+    
+    table thead th {
+      vertical-align: bottom;
+      border-bottom: 2px solid #dee2e6;
+      background-color: var(--light-bg);
+    }
+    
+    table tbody + tbody {
+      border-top: 2px solid #dee2e6;
+    }
+    
+    table tbody tr:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.03);
+    }
+    
+    table tbody tr:hover {
+      background-color: rgba(0, 0, 0, 0.075);
+    }
+    
+    /* Style links in tables */
+    table a {
+      color: var(--primary-medium);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    table a:hover {
+      color: var(--primary-dark);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fort Lewis College Nano Lab</h1>
+    <p>Run by Dr. Jeff Jessing</p>
+  </header>
+  
+  <div class="container">
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#" onclick="navigate('home')">Home</a></li>
+          <li><a href="#" onclick="navigate('sops')">SOPs</a></li>
+          <li><a href="#" onclick="navigate('chemicals')">Chemical Lists</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content" id="content-container">
+      <!-- Main content will be loaded here -->
+    </div>
+  </div>
+  
+  <footer>
+    Fort Lewis College Nano Lab Wiki
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+  <script>
+    // Define consistent routes
+    const routes = {
+      home: 'pages/home.html',
+      sops: 'pages/sops.html',
+      chemicals: 'chemicals/chemicals.md',
+      sopTemplate: 'pages/sop-template.html'
+    };
+
+    // Create a converter with tables support and better table styling
+    const converter = new showdown.Converter({
+      tables: true,
+      strikethrough: true,
+      tasklists: true
+    });
+    converter.setFlavor('github');
+
+    async function loadContent(route, params = {}) {
+      try {
+        console.log(`Loading content from: ${routes[route]}`);
+        const response = await fetch(routes[route]);
+        if (!response.ok) throw new Error(`Network response was not ok: ${response.status}`);
+        
+        let text = await response.text();
+        let html = '';
+        
+        // Process content based on type
+        if (route === 'sopTemplate') {
+          html = text.replace('{{title}}', params.title)
+                     .replace('{{content}}', converter.makeHtml(params.content));
+        } else if (routes[route].endsWith('.md')) {
+          html = `<div class="card">
+                    <div class="card-body">
+                      ${converter.makeHtml(text)}
+                    </div>
+                  </div>`;
+        } else {
+          html = text; // HTML content
+        }
+        
+        document.getElementById('content-container').innerHTML = html;
+        
+        // Typeset math when content is loaded
+        if (window.MathJax) {
+          MathJax.typesetPromise();
+        }
+      } catch (error) {
+        console.error("Error loading content:", error);
+        document.getElementById('content-container').innerHTML = 
+          `<div class="alert alert-danger">Failed to load content: ${error.message}</div>`;
+      }
+    }
+
+    async function loadSOP(title, link) {
+      try {
+        console.log(`Loading SOP from: ${link}`);
+        const response = await fetch(link);
+        if (!response.ok) throw new Error(`Network response was not ok: ${response.status}`);
+        
+        const content = await response.text();
+        loadContent('sopTemplate', { title, content });
+      } catch (error) {
+        console.error("Error loading SOP:", error);
+        document.getElementById('content-container').innerHTML = 
+          `<div class="alert alert-danger">Failed to load SOP: ${error.message}</div>`;
+      }
+    }
+
+    function navigate(route) {
+      console.log(`Navigating to: ${route}`);
+      loadContent(route);
+    }
+
+    // Initial load
+    window.addEventListener('load', () => navigate('home'));
+  </script>
+</body>
+</html>
