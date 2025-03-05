@@ -167,6 +167,8 @@
         <h3>Navigation</h3>
         <ul>
           <li><a href="#" onclick="navigate('home')">Home</a></li>
+          <li><a href="#" onclick="navigate('projects')">Projects</a></li>
+          <li><a href="#" onclick="navigate('papers')">Papers</a></li>
           <li><a href="#" onclick="navigate('sops')">SOPs</a></li>
           <li><a href="#" onclick="navigate('chemicals')">Chemical Lists</a></li>
         </ul>
@@ -178,16 +180,18 @@
   </div>
   
   <footer>
-    Fort Lewis College Nano Lab Wiki
+    Fort Lewis College Nano Lab - <a href="mailto:lascheer@fortlewis.edu">Webmaster</a>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
   <script>
     // Define consistent routes
     const routes = {
-      home: 'pages/home.html',
-      sops: 'pages/sops.html',
+      home: 'index.md',
+      projects: 'projects/projects.md',
+      papers: 'papers/papers.md',
+      sops: 'templates/sops.html',
       chemicals: 'chemicals/chemicals.md',
-      sopTemplate: 'pages/sop-template.html'
+      sopTemplate: 'templates/sop-template.html'
     };
 
     // Create a converter with tables support and better table styling
