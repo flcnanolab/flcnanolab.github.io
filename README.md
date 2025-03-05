@@ -124,4 +124,4 @@ After making changes:
 1. Push your changes to the GitHub repository
 2. The site will automatically update via GitHub Pages
 
-For questions or issues, contact Dr. Jeff Jessing, lab manager.
+For questions or issues, contact Sahra Genc, lab manager.
