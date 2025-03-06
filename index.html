@@ -171,6 +171,7 @@
           <li><a href="#" onclick="navigate('papers')">Papers</a></li>
           <li><a href="#" onclick="navigate('sops')">SOPs</a></li>
           <li><a href="#" onclick="navigate('chemicals')">Chemical Lists</a></li>
+          <li><a href="https://nanolabeyes.lincoln-cobra.workers.dev/" target="_blank">Webcam (Rate Limmited)</a></li>
         </ul>
       </div>
     </div>
@@ -180,8 +181,20 @@
   </div>
   
   <footer>
-    Fort Lewis College Nano Lab - <a href="mailto:lascheer@fortlewis.edu">Webmaster</a>
+    <div>FLC NanoLab - <span id="footer-update">Updated: fetching...</span></div>
+    <div>Contact the <a href="mailto:lascheer@fortlewis.edu">webmaster</a> with any corrections or suggestions.</div>
   </footer>
+  <script>
+    // Replace with your actual GitHub repository details and branch name if necessary.
+    fetch('https://api.github.com/repos/flcnanolab/flcnanolab.github.io/commits/main')
+      .then(response => response.json())
+      .then(data => {
+        const commitDate = new Date(data.commit.committer.date);
+        document.getElementById('footer-update').innerText = `Updated: ${commitDate.toLocaleDateString()}`;
+      })
+      .catch(err => console.error('Error fetching commit info:', err));
+  </script>
+  
   <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
   <script>
     // Define consistent routes
