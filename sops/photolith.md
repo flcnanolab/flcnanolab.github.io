@@ -30,6 +30,7 @@ This SOP outlines the photolithography unit process, providing a standardized pr
 7. [Hard Bake](#hard-bake)
 8. [Stripping](#stripping)
 9. [Recommended Process Parameters](#recommended-process-parameters)
+10. [Chemical Compatibility](#chemical-compatibility)
 
 ---
 
@@ -305,3 +306,26 @@ This SOP outlines the photolithography unit process, providing a standardized pr
 | Solvent Cleaning           | Acetone, IPA, Methanol     |
 
 *Table: Strip (AZ® 910 Remover) Process Parameters*
+
+### Chemical Compatibility
+
+AZ® 1512 Photoresist:
+   - Adhesion Promoter
+      - HMDS.
+   - Developer
+      - AZ® 400K (4:1).
+      - AZ® 300 MIF.
+   - Stripper
+      - AZ® 910 Remover.
+      - AZ® NMP Rinse.
+      - AZ® KWIK Strip.
+
+AZ® nLOF™ 2020 Photoresist:
+   - Adhesion Promoter
+      - HMDS.
+   - Developer
+      - AZ® 300 MIF.
+   - Stripper
+      - AZ® 910 Remover.
+      - AZ® NMP.
+      - AZ® KWIK Strip.
