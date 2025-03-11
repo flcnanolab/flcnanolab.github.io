@@ -222,6 +222,7 @@ This SOP outlines the photolithography unit process, providing a standardized pr
 1. Program the hot plate settings.  
    - *Process parameters are available in [Recommended Process Parameters](#recommended-process-parameters).*
 2. Submerge the wafer in `AZ® 910 Remover` maintained at 50–80°C for 5–20 minutes.
+   - *Note:* Use the recommended parameters in [Recommended Process Parameters](#recommended-process-parameters).
 3. Rinse the wafer in DI water for 5 minutes.
 4. Dry the wafer using a nitrogen gun.
 5. Perform solvent cleaning with acetone, IPA, and methanol.
@@ -299,8 +300,8 @@ This SOP outlines the photolithography unit process, providing a standardized pr
 
 | **Parameter**              | **Value**                  |
 |----------------------------|----------------------------|
-| Temperature (°C)           | 50–80                      |
-| Strip Time (min)           | 5–20                       |
+| Temperature (°C)           | 60-70                      |
+| Strip Time (min)           | 15                         |
 | DI Water Rinse Time (min)  | 5                          |
 | Drying                     | Nitrogen Gun               |
 | Solvent Cleaning           | Acetone, IPA, Methanol     |
