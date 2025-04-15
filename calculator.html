@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fort Lewis College Nano Lab - Calculators</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Add MathJax for rendering mathematical expressions -->
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <style>
+    :root {
+      --primary-dark: #004b8d;
+      --primary-medium: #007DC3;
+      --accent: #FDBB30;
+      --light-bg: #f5f7fa;
+      --white: #ffffff;
+      --text: #333333;
+    }
+    
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--light-bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    
+    header {
+      background: var(--primary-dark);
+      color: var(--white);
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    
+    header p {
+      margin: 5px 0 0;
+      color: var(--accent);
+      font-size: 1.2em;
+    }
+    
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: var(--white);
+    }
+    
+    .sidebar {
+      width: 250px;
+      background: var(--white);
+      padding: 20px;
+      border-right: 1px solid #e0e0e0;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+    
+    .sidebar-section {
+      margin-bottom: 30px;
+    }
+    
+    .sidebar-section h3 {
+      margin-top: 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e0e0e0;
+      color: var(--primary-dark);
+      font-size: 1.1em;
+    }
+    
+    .sidebar-section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .sidebar-section ul li {
+      margin-bottom: 8px;
+    }
+    
+    .sidebar-section ul li a {
+      text-decoration: none;
+      color: var(--text);
+      transition: color 0.2s;
+      display: block;
+      padding: 5px 0;
+    }
+    
+    .sidebar-section ul li a:hover {
+      color: var(--primary-dark);
+    }
+    
+    .main-content {
+      flex: 1;
+      padding: 20px;
+      background: var(--white);
+    }
+    
+    footer {
+      background: var(--primary-dark);
+      color: var(--white);
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
+
+    .calculator-card {
+      margin-bottom: 30px;
+    }
+
+    .calculator-card .card-header {
+      background-color: var(--primary-medium);
+      color: var(--white);
+      font-weight: 500;
+    }
+
+    .calculator-card .form-group label {
+      font-weight: 500;
+    }
+
+    .calculator-result {
+      font-weight: bold;
+      color: var(--primary-dark);
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fort Lewis College Nano Lab</h1>
+    <p>Process Calculators</p>
+  </header>
+  
+  <div class="container">
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#" onclick="navigate('projects')">Projects</a></li>
+          <li><a href="index.html#" onclick="navigate('papers')">Papers</a></li>
+          <li><a href="index.html#" onclick="navigate('sops')">SOPs</a></li>
+          <li><a href="index.html#" onclick="navigate('chemicals')">Chemical Lists</a></li>
+          <li><a href="calculator.html"><strong>Calculators</strong></a></li>
+          <li><a href="webcam.html">Webcam</a></li>
+        </ul>
+      </div>
+      
+      <div class="sidebar-section">
+        <h3>Calculator Tools</h3>
+        <ul>
+          <li><a href="#exposure-calc">Exposure Calculator</a></li>
+          <li><a href="#oxide-thickness">Oxide Thickness Calculator</a></li>
+          <li><a href="#diffusion">Diffusion Calculator</a></li>
+          <li><a href="#etch-rate">Etch Rate Calculator</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="main-content">
+      <h2 class="mb-4">Nanofabrication Calculators</h2>
+
+      <!-- Exposure Calculator -->
+      <div class="card calculator-card" id="exposure-calc">
+        <div class="card-header">
+          Photolithography Exposure Calculator
+        </div>
+        <div class="card-body">
+          <p>Calculate exposure time based on required dose and measured intensity:</p>
+          <form id="exposureForm">
+            <div class="form-group">
+              <label for="requiredDose">Required Dose (mJ/cm²):</label>
+              <input type="number" class="form-control" id="requiredDose" placeholder="Enter dose (e.g., 120)">
+            </div>
+            <div class="form-group">
+              <label for="measuredIntensity">Measured UV Intensity (mW/cm²):</label>
+              <input type="number" class="form-control" id="measuredIntensity" placeholder="Enter intensity (e.g., 6.7)">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="calculateExposure()">Calculate</button>
+            <div class="mt-3">
+              <p>Exposure Time: <span id="exposureResult" class="calculator-result">-</span> seconds</p>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <!-- Etch Rate Calculator -->
+      <div class="card calculator-card" id="etch-rate">
+        <div class="card-header">
+          Etch Rate & Time Calculator
+        </div>
+        <div class="card-body">
+          <p>Calculate % over etch.</p>
+          <form id="etchForm">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="originalTime">Original Time (minutes):</label>
+                  <input type="number" class="form-control" id="originalTime" placeholder="Enter minutes" min="0">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="originalSeconds">Original Time (seconds):</label>
+                  <input type="number" class="form-control" id="originalSeconds" placeholder="Enter seconds" min="0" max="59">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="percentExtra">Percent Extra (%):</label>
+              <input type="number" class="form-control" id="percentExtra" placeholder="Enter percent extra">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="calculateEtch()">Calculate</button>
+            <div class="mt-3">
+              <p>Over Etch Time: <span id="etchResult" class="calculator-result">-</span></p>
+              <p>Extra Time Added: <span id="extraTimeAdded" class="calculator-result">-</span></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div>FLC NanoLab - <span id="footer-update">Updated: April 2025</span></div>
+    <div>Contact <a href="mailto:lascheer@fortlewis.edu" style="color: white;">us</a> with any corrections or suggestions.</div>
+  </footer>
+
+  <script>
+    // Show/hide appropriate fields in etch calculator
+    document.querySelectorAll('input[name="etchCalcType"]').forEach(radio => {
+      radio.addEventListener('change', function() {
+        if (this.value === 'time') {
+          document.getElementById('targetThicknessGroup').style.display = 'block';
+          document.getElementById('etchTimeGroup').style.display = 'none';
+          document.getElementById('etchResultLabel').textContent = 'Required Etch Time: ';
+        } else {
+          document.getElementById('targetThicknessGroup').style.display = 'none';
+          document.getElementById('etchTimeGroup').style.display = 'block';
+          document.getElementById('etchResultLabel').textContent = 'Resulting Thickness: ';
+        }
+      });
+    });
+
+    // Exposure Time Calculator
+    function calculateExposure() {
+      const dose = parseFloat(document.getElementById('requiredDose').value);
+      const intensity = parseFloat(document.getElementById('measuredIntensity').value);
+      
+      if (isNaN(dose) || isNaN(intensity) || intensity === 0) {
+        document.getElementById('exposureResult').textContent = 'Error';
+        return;
+      }
+      
+      const exposureTime = dose / intensity;
+      document.getElementById('exposureResult').textContent = exposureTime.toFixed(1);
+    }
+    
+    // Etch Calculator
+    function calculateEtch() {
+      const originalMinutes = parseFloat(document.getElementById('originalTime').value) || 0;
+      const originalSeconds = parseFloat(document.getElementById('originalSeconds').value) || 0;
+      const percentExtra = parseFloat(document.getElementById('percentExtra').value);
+      
+      if (isNaN(percentExtra)) {
+        document.getElementById('etchResult').textContent = 'Error';
+        document.getElementById('extraTimeAdded').textContent = 'Error';
+        return;
+      }
+      
+      // Convert everything to seconds for calculation
+      const totalOriginalSeconds = originalMinutes * 60 + originalSeconds;
+      const extraSeconds = totalOriginalSeconds * (percentExtra / 100);
+      const totalSeconds = totalOriginalSeconds + extraSeconds;
+      
+      // Convert back to minutes and seconds for display
+      const resultMinutes = Math.floor(totalSeconds / 60);
+      const resultSeconds = Math.round(totalSeconds % 60);
+      
+      // Calculate extra time added in minutes and seconds
+      const extraMinutes = Math.floor(extraSeconds / 60);
+      const extraSecondsRemainder = Math.round(extraSeconds % 60);
+      
+      // Format results
+      document.getElementById('etchResult').textContent = 
+          `${resultMinutes} min ${resultSeconds} sec`;
+      document.getElementById('extraTimeAdded').textContent = 
+          `${extraMinutes} min ${extraSecondsRemainder} sec (${percentExtra}%)`;
+    }
+  </script>
+</body>
+</html>

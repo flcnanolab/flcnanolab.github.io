@@ -71,11 +71,11 @@ The standard photolithography workflow consists of these key steps:
 | Soft Bake            | 110°C for 60 s (1.0 min)       | 110°C for 60 s (1.0 min)   |
 | Exposure Dose        | 90–150 mJ/cm²                 | 66–80 mJ/cm²              |
 | Post Exposure Bake   | N/A                             | 110°C for 60 s (1.0 min)   |
-| Developer            | AZ® 400K (4:1) or AZ® 300 MIF | AZ® 300 MIF                |
+| Developer            | AZ® 300 MIF                    | AZ® 300 MIF                |
 | Development Time     | 45 s (0.75 min)                 | 60 s (1.0 min)              |
 | Hard Bake            | 110°C for 5 min (300 s)        | Not typically required      |
 | Stripping Solution   | AZ® 910 Remover                | AZ® 910 Remover            |
-| Stripping Conditions | 60-70°C for 15 min (900 s)     | 60-70°C for 15 min (900 s) |
+| Stripping Conditions | 50-60°C for 15 min (900 s)     | 50-60°C for 15 min (900 s) |
 
 ### Mask Parameters Summary
 
@@ -159,7 +159,7 @@ This standardized process can be used for all mask steps with appropriate parame
    2. **CHECKPOINT**: Process completed as expected
 9. **Stripping**
 
-   1. Heat AZ® 910 Remover to 60-70°C
+   1. Heat AZ® 910 Remover to 50-60°C
    2. Immerse wafer for 15 min (900 s)
    3. Rinse in DI water for 5 min (300 s)
    4. Perform solvent cleaning with acetone, IPA, and methanol
@@ -238,7 +238,7 @@ This standardized process can be used for all mask steps with appropriate parame
    2. **CHECKPOINT**: Surface is dry and clean
 9. **Stripping**
 
-   1. Heat AZ® 910 Remover to 60-70°C
+   1. Heat AZ® 910 Remover to 50-60°C
    2. Immerse wafer for 15 min (900 s)
    3. Perform solvent cleaning with acetone, IPA, and methanol
    4. Dry with nitrogen gun
@@ -304,7 +304,7 @@ This standardized process can be used for all mask steps with appropriate parame
    2. **CHECKPOINT**: Etching completed successfully
 8. **Stripping**
 
-   1. Heat AZ® 910 Remover to 60-70°C
+   1. Heat AZ® 910 Remover to 50-60°C
    2. Immerse wafer for 15 min (900 s)
    3. Perform solvent cleaning with acetone, IPA, and methanol
    4. Dry with nitrogen gun
@@ -370,7 +370,7 @@ This standardized process can be used for all mask steps with appropriate parame
    2. **CHECKPOINT**: Etching completed successfully
 8. **Stripping**
 
-   1. Heat AZ® 910 Remover to 60-70°C
+   1. Heat AZ® 910 Remover to 50-60°C
    2. Immerse wafer for 15 min (900 s)
    3. Perform solvent cleaning with acetone, IPA, and methanol
    4. Dry with nitrogen gun
@@ -386,7 +386,7 @@ This standardized process can be used for all mask steps with appropriate parame
 - Spin Speed: 3000 RPM for 30 s (0.5 min)
 - Soft Bake: 110°C for 60 s (1.0 min)
 - Exposure: 120 mJ/cm² (17.9 s at 6.7 mW/cm²)
-- Developer: AZ® 400K (4:1) for 45 s (0.75 min)
+- Developer: AZ® 300 MIF for 45 s (0.75 min)
 - Hard Bake: 110°C for 5 min (300 s)
 
 1. **Wafer Preparation**
@@ -417,7 +417,7 @@ This standardized process can be used for all mask steps with appropriate parame
    6. **CHECKPOINT**: Exposure completed successfully
 5. **Development**
 
-   1. Immerse wafer in AZ® 400K (4:1) for 45 s (0.75 min)
+   1. Immerse wafer in AZ® 300 MIF for 45 s (0.75 min)
    2. Rinse in DI water for 30 s (0.5 min) in each of two beakers
    3. Final rinse under flowing DI water
    4. Dry with nitrogen gun
@@ -454,8 +454,7 @@ This standardized process can be used for all mask steps with appropriate parame
   - `AZ® 1512` Photoresist (Positive Tone).
   - `AZ® nLOF™ 2020` Photoresist (Negative Tone).
 - **Developer**
-  - `AZ® 400K (4:1)` (for `AZ® 1512`).
-  - `AZ® 300 MIF` (for `AZ® nLOF™ 2020`).
+  - `AZ® 300 MIF`.
 - **Stripper**
   - `AZ® 910 Remover`.
   - `AZ® NMP Rinse`.
@@ -579,11 +578,10 @@ This standardized process can be used for all mask steps with appropriate parame
 
 **Developer Selection:**
 
-- Note that `AZ® 400K (4:1)` is only compatible with `AZ® 1512` photoresist.
-- `AZ® 300 MIF` is compatible with both `AZ® 1512` and `AZ® nLOF™ 2020` photoresist.
+- AZ® 300 MIF is compatible with both `AZ® 1512` and `AZ® nLOF™ 2020` photoresist.
 
 1. Secure the wafer in a 3-prong holder.
-2. Immerse the wafer in the appropriate developer.
+2. Immerse the wafer in AZ® 300 MIF developer.
    - *See [Quick Reference Parameters](#quick-reference-parameters) for development times.*
 3. Replace the developer if time exceeds 90 s (developer exhaustion).
 4. Rinse in two DI water beakers for approximately 30 s each.
@@ -616,7 +614,7 @@ This standardized process can be used for all mask steps with appropriate parame
 
 1. Program the hot plate settings.
    - *See [Strip (AZ® 910 Remover) Process Parameters](#appendix-a-process-parameter-tables) in Appendix A.*
-2. Submerge the wafer in `AZ® 910 Remover` maintained at 50–80°C for 5–20 minutes.
+2. Submerge the wafer in `AZ® 910 Remover` maintained at 50–60°C for 5–20 minutes.
    - *Note:* Use the recommended parameters in [Strip (AZ® 910 Remover) Process Parameters](#appendix-a-process-parameter-tables) in Appendix A.
 3. Rinse the wafer in DI water for 5 minutes.
 4. Dry the wafer using a nitrogen gun.
@@ -726,7 +724,7 @@ A sample logbook template is provided in Appendix B.
 
 | **Parameter**       | **Value**        |
 | ------------------------- | ---------------------- |
-| Temperature (°C)         | 60-70                  |
+| Temperature (°C)         | 50-60                  |
 | Strip Time (min)          | 15                     |
 | DI Water Rinse Time (min) | 5                      |
 | Drying                    | Nitrogen Gun           |
@@ -741,7 +739,6 @@ AZ® 1512 Photoresist:
 - Adhesion Promoter
   - HMDS.
 - Developer
-  - AZ® 400K (4:1).
   - AZ® 300 MIF.
 - Stripper
   - AZ® 910 Remover.
