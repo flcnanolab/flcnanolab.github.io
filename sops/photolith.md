@@ -94,7 +94,7 @@ This standardized process can be used for all mask steps with appropriate parame
 1. **Spin Coating**
 
    Recommended setup orientation for spin coating, soft bake, and hardbake.
-   ![alt text](image-4.png)
+   ![alt text](sops/image-4.png)
 
    Steps 3-6 are performed immediately in sequence, no break between steps.
    
@@ -260,7 +260,7 @@ This standardized process can be used for all mask steps with appropriate parame
 2. **Prepare BOE Quench**
 3. **Prepare DI Water Rinse**
 4. **Measure FOX Thickness**
-   Measure the thickness of the FOX layer using the SEM, it is etched from the SOD removal process. Use the etch rate calculated from the previous etch to determine the etch time required to remove the remianing FOX layer. The etch time is 20% longer than calculated if above 4000Å, or 15% longer if below 4000Å.
+   Measure the thickness of the FOX layer using the SEM, it is etched from the SOD removal process. Use the etch rate calculated from the previous etch to determine the etch time required to remove the remaining FOX layer. The etch time is 20% longer than calculated if above 4000Å, or 15% longer if below 4000Å.
 5. **Etch**
       Dip the wafer in the BOE etch. Etch for the calculated time in step 4.
 6. **Quench**
@@ -276,7 +276,7 @@ This standardized process can be used for all mask steps with appropriate parame
 2. **Prepare BOE Quench**
 3. **Prepare DI Water Rinse**
 4. **Measure FOX Thickness**
-   Measure the thickness of the GOX layer, we need to etch through the GOX layer to create the contact opening. Use the etch rate calculated from the previous etch to determine the etch time required to remove the remianing GOX layer, use a 10% over etch time.
+   Measure the thickness of the GOX layer, we need to etch through the GOX layer to create the contact opening. Use the etch rate calculated from the previous etch to determine the etch time required to remove the remaining GOX layer, use a 10% over etch time.
 5. **Etch**
       Dip the wafer in the BOE etch. Etch for the calculated time in step 4.
 6. **Quench**
@@ -329,7 +329,7 @@ This standardized process can be used for all mask steps with appropriate parame
 
    The Karl Suss MBJ3 Contact Aligner is a contact photolithography tool used for aligning and exposing photoresist-coated wafers. It utilizes a UV light source to transfer patterns from masks to substrates.
 
-   ![MJB Contact Aligner](image-1.png)
+   ![MJB Contact Aligner](sops/image-1.png)
 
    1. Lamp Power Supply
    2. Manometer
@@ -348,7 +348,7 @@ This standardized process can be used for all mask steps with appropriate parame
    ### Hot Plate
    USe the thermo scientific hot plate for soft bake and hard bake steps. This hot plate is more accurate than the others in the lab.
 
-   ![alt text](image-2.png)
+   ![alt text](sops/image-2.png)
 
 ---
 
