@@ -27,30 +27,48 @@ Senior Seminar 2024-2025
 - Load wafers into quartz boat, centered, regardless of count.
 - Shiny side of wafers should face gas input (away from boat handle).
 - Use **2 dummy wafers** to sandwich actual wafers, all facing shiny side toward gas input.
-- Refer to Figure 1.
+- Refer to _Figure 1_.
 
 <div align="center">
-  <img src="Images/1.jpg" alt="Wafer orientation" width="500"/>
+  <img src="Images/1.jpg" alt="Wafer orientation" width="300"/>
   <p><strong>Figure 1:</strong> Wafer orientation</p>
 </div>
 
-
-
 3. **Boat Insertion**
 
-- Insert quartz boat so wafers line up with furnace door latch (see _Figure 2.7_).
-- Align thermal blocks with furnace insulation (see _Figure 2.8_).
+- Insert quartz boat so wafers line up with furnace door latch (see _Figure 2_).
+
+  <div align="center">
+  <img src="Images/2.jpg" alt="Quartz boat alignment in tube furnace" width="400"/>
+  <p><strong>Figure 2:</strong>Quartz boat alignment in tube furnace </p>
+</div>
+
+- Align thermal blocks with furnace insulation (see _Figure 3_).
+  
+  <div align="center">
+  <img src="Images/3.jpg" alt="Thermal block alignment" width="200"/>
+  <p><strong>Figure 3:</strong>Thermal block alignment </p>
+</div>
+
 - Slide the thermocouple through the metal blocks to ensure that it clears the wafers and does not hit them. 
 - Close the lid on the furnace *SLOWLY*. If not, it can crush the tube. Secure latch. Put the metal grid from the oven on top of the furnace in preparation for the thermocouple.
 - Put on metal cap cover and screw in on end of tube. 
 image5.jpg, Picture, Picture
 
-4. **Furnace Controller Setup**
+4. **Program Furnace Controller**
 
 - Turn **Main Power** switch to ON.
-- Press button to display `C01` (current setting).
-- Use directional buttons to adjust digits and set heating curve (see _Figure 2.9_).
-- On oxidation day, after soaking, change `t06` from 400 to 1 to begin cooldown.
+- Press <img src="Images/4.png" width="30"/> to display `C01` (current setting).
+- This button, <img src="Images/5.png" width="30"/> will be used to go and see the next step of the heating curve.
+- When adjusting the times, these buttons are used to change values up and down,  <img src="Images/6.png" width="30"/>  <img src="Images/7.png" width="30"/>. To change certain values, use this button, <img src="Images/4.png" width="30"/> , to switch to different digits.
+- Change t06 from 400 to 1 by using the buttons shown in steps above. This tells the controller to take one minute to go to the next step of the heating curve.
+- Adhere to the heating curve in _Figure 4_.
+
+
+  <div align="center">
+  <img src="Images/9.jpg" alt="Field oxide heating curve" width="300"/>
+  <p><strong>Figure 4:</strong>Field oxide heating curve </p>
+</div>
 
 
 ## Bubbler Setup
