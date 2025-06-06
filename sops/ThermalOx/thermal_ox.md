@@ -5,16 +5,18 @@ Senior Seminar 2024-2025
 **Author:** Natalia Lambos  
 **Updated:** June 5, 2025
 
-# Tube Furnace Oxidation Process Guide
+# Dry-Wet-Dry Thermal Oxidation Procedure
 
 ---
 
-### ⚠️ Safety Notice
+## ⚠️ Safety Notice
 - **Do not stand directly in front of the furnace during the process.**
 
 ---
-## Unit Process SOP
-1. **Preparation**
+
+## Preparation
+
+1. **Setup preparation**
 
 - Verify UHP oxygen and nitrogen tanks are full (>700 psi).
 - Clean quartz boat with acetone, propanol, and methanol in the fume hood.
