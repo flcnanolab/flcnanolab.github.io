@@ -27,8 +27,9 @@ Senior Seminar 2024-2025
 - Load wafers into quartz boat, centered, regardless of count.
 - Shiny side of wafers should face gas input (away from boat handle).
 - Use **2 dummy wafers** to sandwich actual wafers, all facing shiny side toward gas input.
-- Refer to _Figure 2.6: Wafer orientation_.
+- Refer to Figure 1.
 
+![Figure 1: Wafer orientation](sops/ThermalOx/Images/1.jpg)
 3. **Boat Insertion**
 
 - Insert quartz boat so wafers line up with furnace door latch (see _Figure 2.7_).
