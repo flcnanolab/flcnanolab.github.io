@@ -110,47 +110,52 @@ image5.jpg, Picture, Picture
 
 ---
 
-## First Dry Oxidation (2.5 Hours After Ramp Start)
+## Checking Furnace Temperature (2.5 Hours After Ramp Start)
 
-1. After 2.5 hrs, plug thermocouple into **Omega Calibrator** (see _Figure 2.12_).
-2. Use **high-temp gloves**.
-3. Insert thermocouple until **scratches line up** with metal lid edge.
-4. Wait 3 mins. Thermocouple will glow red.
-5. Carefully remove and place on **metal grid**.
+- After 2.5 hrs, plug thermocouple into **Omega Calibrator** (see _Figure 7_).
+   
+  <div align="center">
+  <img src="Images/15.jpg" alt="Omega Calibrator to verify furnace temperature" width="300"/>
+  <p><strong>Figure 7:</strong>Omega Calibrator to verify furnace temperature</p>
+</div>
+
+- Push the thermocouple through the metal lid and thermal block until the 2 scratches on the thermocouple are lined up with the end of the metal lid.
+- Let the thermocouple sit for at least 3 minutes to ensure it reaches maximum temperature.
+- **WARNING: the thermocouple will be glowing BRIGHT RED due to dangerous high temperature. It is very important to take EXTREME CARE not to hit any surface with the glowing rod when taking it out of the furnace.**
+- When the thermocouple is pulled out, it will glow red, place it on top of the metal grid on top of the furnace.
 
 ---
 
 ## Dry Oxidation Phase (45 min)
 
-1. Open **O₂ needle valve** (2 turns counterclockwise).
-2. Turn ON dry O₂ butterfly valve.
-3. Turn OFF N₂ butterfly valve and close N₂ needle valve.
-4. Set timer: **45 minutes**.
+- After verifying 1150°C, open **O₂ needle valve** (2 turns counterclockwise).
+- Turn ON dry O₂ butterfly valve.
+- Turn OFF N₂ butterfly valve and close N₂ needle valve.
+- Set timer for **45 minutes**.
 
 ---
 
 ## Wet Oxidation Phase (2 hrs)
 
-1. Confirm bubbler pressure ≥ **0.085 MPa**.
-2. Open **bubbler bypass valve** (counterclockwise).
-3. Open **bubbler outlet valve**.
-4. Slowly turn ON **wet ox butterfly valve**.
-5. Turn OFF **dry ox valve**.
-6. Close **bubbler bypass**.
-7. Slowly open **bubbler inlet**.
-   - Water droplets in tube are **normal**.
-8. Set timer: **120 minutes**.
+- Confirm bubbler pressure ≥ **0.085 MPa**.
+- Open **bubbler bypass valve** (counterclockwise).
+- Open **bubbler outlet valve**.
+-  _Slowly_ turn ON **wet ox butterfly valve**.
+- Turn OFF **dry ox valve**.
+- Close **bubbler bypass**.
+- Slowly open **bubbler inlet**. Water droplets in tube are normal.
+- Set timer for **120 minutes**.
 
 ---
 
-## Post-Wet Oxidation (Cooldown Prep)
+## Second Dry Oxidation(45 min)
 
-1. After 2 hrs:
-   - Close bubbler **outlet** and **inlet** valves.
-   - Open **dry ox butterfly valve**.
-   - Close **wet ox valve**.
-   - Turn OFF bubbler (power switch under table).
-2. Set timer: **45 minutes**.
+- After 2 hrs:
+   - Close bubbler outlet and inlet valves.
+   - Open dry ox butterfly valve.
+   - Close wet ox valve.
+   - Turn OFF bubbler form the power switch.
+- Set timer for 45 minutes.
 
 ---
 
@@ -160,23 +165,12 @@ image5.jpg, Picture, Picture
 2. Reopen **N₂ needle valve** and turn ON **N₂ butterfly valve**.
 3. Turn OFF **dry O₂ valve** and close O₂ needle valve.
 4. Go outside and turn OFF **UHP O₂**.
-5. Set timer: **3.5 hrs** for cooldown.
+5. Set timer for **3.5 hrs** cooldown.
 
 ---
 
-## End of Run
+## Turn Off Furnace
 
 - When furnace <400°C, turn off Main Power.
 - Close N₂ needle valve and butterfly valve.
 - Turn OFF UHP nitrogen tank.
-
----
-
-## Next Day Procedure
-
-1. Remove wafers; place in individual wafer carriers **shiny side down**.
-2. Cleave one wafer and measure oxide thickness via **SEM**.
-3. Take remaining wafers to **Berndt Hall lab** for ellipsometry.
-   - Follow procedure under “Ellipsometry Measurements”.
-
----
