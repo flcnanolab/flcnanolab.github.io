@@ -62,6 +62,7 @@ image5.jpg, Picture, Picture
 - This button, <img src="Images/5.png" width="30"/> will be used to go and see the next step of the heating curve.
 - When adjusting the times, these buttons are used to change values up and down,  <img src="Images/6.png" width="30"/>  <img src="Images/7.png" width="30"/>. To change certain values, use this button, <img src="Images/4.png" width="30"/> , to switch to different digits.
 - Change t06 from 400 to 1 by using the buttons shown in steps above. This tells the controller to take one minute to go to the next step of the heating curve.
+- Ensure that the temperature c06 is at **1150 °C** for Dry-Wet-Dry oxidation.
 - Adhere to the heating curve in _Figure 4_.
 
 
@@ -70,42 +71,46 @@ image5.jpg, Picture, Picture
   <p><strong>Figure 4:</strong>Field oxide heating curve </p>
 </div>
 
+5. **Bubbler Prepartion**
 
-## Bubbler Setup
+- Unscrew the bubbler using the black wrench. Dump out remaining water and wipe it down with Kimwipes.
+- Fill the bubbler up 2/3 of the way, with 400 mL of DI water.(Use a graduated cylinder to measure.)
+- Put the bubbler back in the sleeve. Ensure all valves going into and out of the bubbler are closed by turning all valves clockwise. These include the bypass valve (green arrow), the labeled inlet valve (white arrow), and the labeled outlet valve (blue arrow) in _Figure 5_.
 
-1. Go to outside closet and open UHP N2 and O2.
-2. Dump out old water from bubbler, clean with Kimwipes.
-3. Fill with **400 mL DI water** (~2/3 full).
-4. Ensure all bubbler valves are **closed**:
-   - Bypass (green)
-   - Inlet (white)
-   - Outlet (blue) — see _Figure 2.10_.
-5. Confirm **butterfly valve** from bubbler to furnace is open (see _Figure 2.11_).
+  <div align="center">
+  <img src="Images/10.jpg" alt="Bubbler valves" width="300"/>
+  <p><strong>Figure 5:</strong>Bubbler valves</p>
+</div>
+
+- Ensure that the butterfly valve from the bubbler is open, _Figure 6_.
+
+  <div align="center">
+  <img src="Images/11.jpg" alt="Butterfly valve connecting the bubbler to the furnace" width="200"/>
+  <p><strong>Figure 6:</strong>Butterfly valve connecting the bubbler to the furnace</p>
+</div>
 
 ---
 
-## Furnace Heating
+## Oxidation Start
 
-1. Turn furnace Main Power ON.
-2. Verify heating curve: `T06 = 1150°C` for DWD oxidation.
-3. Set mass flow rates to **20 SCCM** for both N₂ and O₂.
-4. Open nitrogen needle valve (2 turns counterclockwise).
-5. Turn **N₂ butterfly valve** to ON.
-6. Start run:
-   - Hold controller button until “run” displays.
-   - Hold green power button 2 seconds — red light should blink.
+- Set mass flow rates to **20 SCCM** for both N₂ and O₂.
+- Open nitrogen needle valve <img src="Images/12.png" width="30"/> with at least 2 turns counterclockwise.
+- Turn N₂ butterfly valve <img src="Images/13.png" width="30"/> to ON.
+- Press <img src="Images/7.png" width="30"/> button for a couple seconds until the word “run” appears on the controller.
+- Press the green power button for two seconds until a loud clicking sound is heard and the red power light begins to blink. The blinking will not be consistent. The furnace is still on.
+- The bubbler takes about 1 hour and 30 minutes to heat up and reach the required pressure of at least .085 MPa. So, start a 1 hour and 45 minutes timer and come back at that time to turn on the bubbler. 
+- Also start a seperate 2.5 hours timer at the same time. This will be the timer for the ramp up.
 
 ---
 
 ## Bubbler Heating (1 hr 45 min into ramp)
 
-1. Tighten bubbler lid.
-2. Turn ON bubbler power (under table).
-3. Set to **102°C**, press and hold down arrow until it says “run”.
+- Turn ON bubbler power switch (under table).
+- The temperature should be already set to **102°C**. Press and hold the down arrow until the program says “run”. The bubbler is now heating up.
 
 ---
 
-## Verify Furnace Temperature
+## First Dry Oxidation (2.5 Hours After Ramp Start)
 
 1. After 2.5 hrs, plug thermocouple into **Omega Calibrator** (see _Figure 2.12_).
 2. Use **high-temp gloves**.
