@@ -52,4 +52,3 @@ in blue what changed from oxidation.
 - This button, <img src="Images/5.png" width="30"/> will be used to go and see the next step of the heating curve.
 - When adjusting the times, these buttons are used to change values up and down,  <img src="Images/6.png" width="30"/>  <img src="Images/7.png" width="30"/>. To change certain values, use this button, <img src="Images/4.png" width="30"/> , to switch to different digits.
 - Change t06 from 400 to 1 by using the buttons shown in steps above. This tells the controller to take one minute to go to the next step of the heating curve.
-- Adhere to the heating curve in _Figure 4_.
