@@ -32,7 +32,7 @@ Senior Seminar 2024-2025
 - Refer to _Figure 1_.
 
 <div align="center">
-  <img src="Images/1.jpg" alt="Wafer orientation" width="300"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/1.jpg" alt="Wafer orientation" width="300"/>
   <p><strong>Figure 1:</strong> Wafer orientation</p>
 </div>
 
@@ -41,14 +41,14 @@ Senior Seminar 2024-2025
 - Insert quartz boat so wafers line up with furnace door latch (see _Figure 2_).
 
   <div align="center">
-  <img src="Images/2.jpg" alt="Quartz boat alignment in tube furnace" width="400"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/2.jpg" alt="Quartz boat alignment in tube furnace" width="400"/>
   <p><strong>Figure 2:</strong>Quartz boat alignment in tube furnace </p>
 </div>
 
 - Align thermal blocks with furnace insulation (see _Figure 3_).
   
   <div align="center">
-  <img src="Images/3.jpg" alt="Thermal block alignment" width="200"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/3.jpg" alt="Thermal block alignment" width="200"/>
   <p><strong>Figure 3:</strong>Thermal block alignment </p>
 </div>
 
@@ -60,16 +60,16 @@ image5.jpg, Picture, Picture
 4. **Program Furnace Controller**
 
 - Turn **Main Power** switch to ON.
-- Press <img src="Images/4.png" width="30"/> to display `C01` (current setting).
-- This button, <img src="Images/5.png" width="30"/> will be used to go and see the next step of the heating curve.
-- When adjusting the times, these buttons are used to change values up and down,  <img src="Images/6.png" width="30"/>  <img src="Images/7.png" width="30"/>. To change certain values, use this button, <img src="Images/4.png" width="30"/> , to switch to different digits.
+- Press <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/4.png" width="30"/> to display `C01` (current setting).
+- This button, <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/5.png" width="30"/> will be used to go and see the next step of the heating curve.
+- When adjusting the times, these buttons are used to change values up and down,  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/6.png" width="30"/>  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/7.png" width="30"/>. To change certain values, use this button, <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/4.png" width="30"/> , to switch to different digits.
 - Change t06 from 400 to 1 by using the buttons shown in steps above. This tells the controller to take one minute to go to the next step of the heating curve.
 - Ensure that the temperature c06 is at **1150 °C** for Dry-Wet-Dry oxidation.
 - Adhere to the heating curve in _Figure 4_.
 
 
   <div align="center">
-  <img src="Images/9.jpg" alt="Field oxide heating curve" width="300"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/9.jpg" alt="Field oxide heating curve" width="300"/>
   <p><strong>Figure 4:</strong>Field oxide heating curve </p>
 </div>
 
@@ -80,14 +80,14 @@ image5.jpg, Picture, Picture
 - Put the bubbler back in the sleeve. Ensure all valves going into and out of the bubbler are closed by turning all valves clockwise. These include the bypass valve (green arrow), the labeled inlet valve (white arrow), and the labeled outlet valve (blue arrow) in _Figure 5_.
 
   <div align="center">
-  <img src="Images/10.jpg" alt="Bubbler valves" width="300"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/10.jpg" alt="Bubbler valves" width="300"/>
   <p><strong>Figure 5:</strong>Bubbler valves</p>
 </div>
 
 - Ensure that the butterfly valve from the bubbler is open, _Figure 6_.
 
   <div align="center">
-  <img src="Images/11.jpg" alt="Butterfly valve connecting the bubbler to the furnace" width="200"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/11.jpg" alt="Butterfly valve connecting the bubbler to the furnace" width="200"/>
   <p><strong>Figure 6:</strong>Butterfly valve connecting the bubbler to the furnace</p>
 </div>
 
@@ -96,9 +96,9 @@ image5.jpg, Picture, Picture
 ## Oxidation Start
 
 - Set mass flow rates to **20 SCCM** for both N₂ and O₂.
-- Open nitrogen needle valve <img src="Images/12.png" width="30"/> with at least 2 turns counterclockwise.
-- Turn N₂ butterfly valve <img src="Images/13.png" width="30"/> to ON.
-- Press <img src="Images/7.png" width="30"/> button for a couple seconds until the word “run” appears on the controller.
+- Open nitrogen needle valve <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/12.png" width="30"/> with at least 2 turns counterclockwise.
+- Turn N₂ butterfly valve <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/13.png" width="30"/> to ON.
+- Press <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/7.png" width="30"/> button for a couple seconds until the word “run” appears on the controller.
 - Press the green power button for two seconds until a loud clicking sound is heard and the red power light begins to blink. The blinking will not be consistent. The furnace is still on.
 - The bubbler takes about 1 hour and 30 minutes to heat up and reach the required pressure of at least .085 MPa. So, start a 1 hour and 45 minutes timer and come back at that time to turn on the bubbler. 
 - Also start a seperate 2.5 hours timer at the same time. This will be the timer for the ramp up.
@@ -117,7 +117,7 @@ image5.jpg, Picture, Picture
 - After 2.5 hrs, plug thermocouple into **Omega Calibrator** (see _Figure 7_).
    
   <div align="center">
-  <img src="Images/15.jpg" alt="Omega Calibrator to verify furnace temperature" width="300"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/15.jpg" alt="Omega Calibrator to verify furnace temperature" width="300"/>
   <p><strong>Figure 7:</strong>Omega Calibrator to verify furnace temperature</p>
 </div>
 
