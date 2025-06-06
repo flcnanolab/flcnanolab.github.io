@@ -16,7 +16,7 @@ Senior Seminar 2024-2025
 
 ## Preparation
 
-1. **Setup preparation**
+### **Setup preparation**
 
 - Verify UHP oxygen and nitrogen tanks are full (>700 psi).
 - Clean quartz boat with acetone, propanol, and methanol in the fume hood.
@@ -24,7 +24,7 @@ Senior Seminar 2024-2025
 - Do not move the back thermal block.
 - Place **Warning Furnace Sign** on Velcro at door.
 
-2. **Wafer Loading**
+### **Wafer Loading**
 
 - Load wafers into quartz boat, centered, regardless of count.
 - Shiny side of wafers should face gas input (away from boat handle).
@@ -36,7 +36,7 @@ Senior Seminar 2024-2025
   <p><strong>Figure 1:</strong> Wafer orientation</p>
 </div>
 
-3. **Boat Insertion**
+### **Boat Insertion**
 
 - Insert quartz boat so wafers line up with furnace door latch (see _Figure 2_).
 
@@ -57,7 +57,7 @@ Senior Seminar 2024-2025
 - Put on metal cap cover and screw in on end of tube. 
 image5.jpg, Picture, Picture
 
-4. **Program Furnace Controller**
+### **Program Furnace Controller**
 
 - Turn **Main Power** switch to ON.
 - Press <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/4.png" width="30"/> to display `C01` (current setting).
@@ -73,7 +73,7 @@ image5.jpg, Picture, Picture
   <p><strong>Figure 4:</strong>Field oxide heating curve </p>
 </div>
 
-5. **Bubbler Prepartion**
+### **Bubbler Prepartion**
 
 - Unscrew the bubbler using the black wrench. Dump out remaining water and wipe it down with Kimwipes.
 - Fill the bubbler up 2/3 of the way, with 400 mL of DI water.(Use a graduated cylinder to measure.)
