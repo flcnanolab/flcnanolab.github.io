@@ -29,7 +29,13 @@ Senior Seminar 2024-2025
 - Use **2 dummy wafers** to sandwich actual wafers, all facing shiny side toward gas input.
 - Refer to Figure 1.
 
-![Figure 1: Wafer orientation](Images/1.jpg)
+<div align="center">
+  <img src="Images/1.jpg" alt="Wafer orientation" width="500"/>
+  <p><strong>Figure 1:</strong> Wafer orientation</p>
+</div>
+
+
+
 3. **Boat Insertion**
 
 - Insert quartz boat so wafers line up with furnace door latch (see _Figure 2.7_).
