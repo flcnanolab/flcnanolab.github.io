@@ -1,5 +1,5 @@
 # Students
-## Current Students
+
 ### Lab Managers
 1. Sahra Genc:
 2. Leif Gislason:
