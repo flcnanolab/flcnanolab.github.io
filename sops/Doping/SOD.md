@@ -21,20 +21,38 @@ Wafers:
 - All wafers ready for processing
   
 ### Setup
-1. Spin coater
-    1. Ensure that both the pump and coater are plugged in and switches are turned on
-    2. Turn valve that connects Nitrogen to coater OFF
-    3. Turn ON Nitrogen adjust psi to 35 (don’t want too much pressure)
-    4. Turn valve to ON position
-    5. Turn ON coater, then adjust psi until it turns on (normally ~40 psi)
-    6. Settings: 
-        1. Acceleration time: 12 sec
-        2. Speed time: 20 sec
-        3. Spin speed: 3000 RPM
-        4. Decel Time: 0.5s
-2. Hot plate
-    1. 200°C
-    2. 12 min
+1. Hot plate - start first to preheat
+     1. Clean the surface with proponal and a clean room wipe
+     2. Heat to 200&deg;C
+2. Spin coater
+     1. Ensure that both the vacuum pump and spin coater are plugged in and any power strip switches are on. The vacuum pump and spin coater are shown in Figure 1.<br />
+<p align="center">
+  <img src="Images/fig1.jpg" width="300" alt="Vacuum pump and spin coater"><br>
+  <em>Figure 1: Vacuum pump (left) and spin coater (right)</em>
+</p>
+    2. Turn on the spin coater via the switch on the back (Figure 2). The screen will not light up for now. <br />
+<p align="center">
+  <img src="Images/fig2.jpg" width="300" alt="spin coater switch"><br>
+  <em>Figure 2: Spin Coater power switch </em>
+</p>
+    3. Turn lever valve that connects nitrogen to coater OFF. Ensure the nitrogen tank source is above 50 psi. The nitrogen tank is shown in Figure 3. 
+<p align="center">
+  <img src="Images/fig3.png" width="300" alt="nitrogen"><br>
+  <em>Figure 3: Nitrogen tank and valves  </em>
+</p>
+    4. Turn ON nitrogen with the source valve.  
+        5. Turn the lever valve to ON position.
+        6. Adjust the psi to 20 on the regulator. If the spin coater does not turn on slowly increase the psi until it does. 
+        7. Click the spin time up arrow to view the parameters. 
+        8. Adjust the settings to the following parameters:  
+            1. Acceleration time: 10 sec 
+            2. Speed time: 50 sec 
+            3. Spin speed: 2000 RPM 
+            4. Decel Time: 0.5s 
+3. Native oxide removal 
+    1. Prepare a methanol bath with the beaker labeled with Ian’s name and fill it with enough methanol to cover the wafers in a boat. 
+    2. Follow BOE SOP for setup, BOE in container labeled “PMOS BOE FOX” should be used. A quench of DI water should be prepared.
+    
 ### Procedure
 1. Place clean N-type wafer on chuck
 2. Use black alignment tool to center wafer
