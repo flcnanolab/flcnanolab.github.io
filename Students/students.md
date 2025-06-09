@@ -5,7 +5,8 @@
 2. Leif Gislason:
 
 ### Student Researchers
-1. Lethicia Calderon:
-2. Hunter Goggins:
-3. Andrew Tritle:
-4. Ian Van Horn:
+1. Sally Thompson:
+2. Lethicia Calderon:
+3. Hunter Goggins:
+4. Andrew Tritle:
+5. Ian Van Horn:
