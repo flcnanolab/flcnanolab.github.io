@@ -4,6 +4,18 @@
 
 ## Lung on a Chip
 
+#### Background 
+
+Recent advancements in biomedical research have greatly expanded our knowledge of disease mechanisms and therapeutic strategies. However, much of this progress has depended on animal models and conventional cell cultures, which often fail to accurately reflect human physiology. This discrepancy limits their ability to predict clinical outcomes. To address this gap, organ-on-a-chip technology has emerged as a promising alternative. These microengineered systems recreate the dynamic cellular environments of human organs, offering a more representative platform for studying disease pathology and drug responses.
+
+#### Objectives 
+
+The primary objective of this research is to develop a reliable fabrication method for producing thin, uniform porous silicon (PSi) membranes with controlled mechanical properties. These membranes are designed to simulate the interstitial barrier between lung epithelial and endothelial cells. By optimizing membrane characteristics such as thickness, porosity, and strength, we aim to support the creation of more physiologically accurate Lung-on-a-Chip models.
+
+#### Applications 
+
+The fabricated PSi membranes are intended for integration into Lung-on-a-Chip systems. These models can be used to study lung diseases and develop personalized therapies with higher predictive value than traditional methods. Ultimately, this research contributes to the advancement of precision medicine and the reduction of reliance on animal testing in biomedical research.
+
 ---
 
 ## Porous Silicon Rocket
