@@ -61,7 +61,7 @@ Wafers:
     1. Prepare a methanol bath with the beaker labeled with Ian’s name and fill it with enough methanol to cover the wafers in a boat.  
     2. Follow BOE SOP for setup. BOE in container labeled **“PMOS BOE FOX”** should be used. A quench of DI water should be prepared.  
 
-### Procedure
+### Procedure (Leif left off here)
 1. Place clean N-type wafer on chuck
 2. Use black alignment tool to center wafer
 3. Do a practice run, wafer should have minimal “wobble”.
