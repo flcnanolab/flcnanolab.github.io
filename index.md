@@ -1,6 +1,6 @@
 # Fort Lewis College Nano Lab
 
-Welcome to the Fort Lewis College Nano Lab! We are a student-driven research group focused on nanofabrication, nanomaterials, and nanotechnology led by Dr. Jeff Jessing. Our lab manager is Sahra Genc. We are located in Sitter Family Hall Building at Fort Lewis College in Durango, Colorado.
+Welcome to the Fort Lewis College Nano Lab! We are a student-driven research group focused on nanofabrication, nanomaterials, and nanotechnology led by Dr. Jeff Jessing. Our lab managers are Sahra Genc and Leif Gislason. We are located in Sitter Family Hall Building at Fort Lewis College in Durango, Colorado.
 
 ## About This Site
 
