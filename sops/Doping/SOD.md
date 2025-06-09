@@ -10,12 +10,16 @@ Senior Seminar 2024-2025
 ---
 
 ### ⚠️ Safety Notice
+- **Certified BOE user required**
 - **Wear goggles and proper PPE.**
 
 ---
-## Unit Process SOP
+## Materials
 Dopant: Filmtronics B153  
-Wafer: N-type
+Wafers:  
+- 1 n-type 3-9 ohm cm for Spin on Dopant (SOD) control
+- All wafers ready for processing
+  
 ### Setup
 1. Spin coater
     1. Ensure that both the pump and coater are plugged in and switches are turned on
