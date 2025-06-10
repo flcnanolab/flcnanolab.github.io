@@ -22,6 +22,19 @@ The fabricated PSi membranes are intended for integration into Lung-on-a-Chip sy
 
 ---
 
+## Superconductivity and Quantum Levitation
+
+#### Background
+
+Superconductivity was first discovered in 1911 by a Dutch physicist named Heike Kamerlingh Onnes. Using liquid helium, he learned that some materials completely lose their electrical resistivity when near absolute zero Kelvin. In other words, current can flow through superconductors perfectly with no energy loss. Since then, many advancements in superconductor materials have been made. Instead of requiring liquid helium, modern High Temperature Superconductors (HTS) can be cooled with liquid nitrogen, a much more affordable and available material. This makes the use and demonstration of superconductors far simpler and possible in less extreme environments.
+
+#### Applications
+
+With the newly acquired Mr. SQUID (Superconducting Quantum Interference Device), many different experiments can 
+Because current can flow unimpeded in a superconductor,
+
+---
+
 ## Senior Seminar 2024-2025: MOSFET Fabrication
 
 #### Background
