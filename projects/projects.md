@@ -30,7 +30,7 @@ Superconductivity was first discovered in 1911 by a Dutch physicist named Heike 
 
 #### Applications
 
-Because superconductors have infinite conductance, current will flow through them without any voltage generation. This characteristic is shown by a machine called a Mr. SQUID (Superconducting Quantum Interference Device). With an oscilloscope, the zero resistance and other quantum mechanical effects can be seen using the Mr. SQUID's superconducting Josephson Junctions. 
+Because superconductors have infinite conductance, current will flow through them without any voltage generation. This characteristic is shown by a machine called a Mr. SQUID (Superconducting Quantum Interference Device). With an oscilloscope, the zero resistance quality and other quantum mechanical effects can be seen using the Mr. SQUID's superconducting Josephson Junctions. 
 
 Another device that shows a quantum mechanical interaction is the Magnetic Levitation kit. Because of the Meissner effect, a superconducting disc is able to levitate above magnets when perfectly opposing eddy curents are generated from the cuperconductor being exposed to a magnetic field. In other words, the magnetic flux is ejected from the superconductor, and the resulting force is enough to counteract the weight of the disc. Many modern High Temperature Superconductors (HTS's) also exhibit flux pinning, where magnetic flux is vorticized and locked holding the disc with even more force. Flux pinning allows superconductors to withstand even higher magnetic field and levitate far more than their own weight.
 
