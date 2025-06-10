@@ -36,7 +36,7 @@ Another device that shows a quantum mechanical interaction is the Magnetic Levit
 
 #### Future Uses
 
-
+Because of their efficiency, superconductors may be used in future power grid systems to greatly reduce the losses in power transfer. They could also be used in transportation or mechanical systems as levitation bearing, or in fusion power generation because of their ability to generate huge compressive magnetic fields. Luckily, higher temperature superconductive materials are discovered continuously which further reduce the cooling issues that serve as the main issue in their application. Soon, we may see superconductor technology in everyday technology.
 
 ---
 
