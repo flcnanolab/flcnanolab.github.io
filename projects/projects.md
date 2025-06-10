@@ -30,8 +30,9 @@ Superconductivity was first discovered in 1911 by a Dutch physicist named Heike 
 
 #### Applications
 
-With the newly acquired Mr. SQUID (Superconducting Quantum Interference Device), many different experiments can 
-Because current can flow unimpeded in a superconductor,
+Because superconductors have infinite conductance, current can flow through them without any voltage generation. This characteristic is shown by a machine called a Mr. SQUID (Superconducting Quantum Interference Device). With an oscilloscope, the zero resistance and other quantum mechanics can be seen using the Mr. SQUID's superconducting Josephson Junctions. 
+
+Another device that shows a quantum mechanical interaction is the Magnetic Levitation kit. Because of the Meissner effect, a superconducting disc is able to levitate above magnets. The magnetic field creates equally opposing eddie currents inside disc, making 
 
 ---
 
