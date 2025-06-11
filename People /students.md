@@ -65,3 +65,29 @@
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/Screenshot 2025-06-11 134319.png" width="300"><br>
+      <strong> Natalia Lambos </strong><br>
+      • Research: Porous Silicon Rocket <br>
+      • Year: Senior<br>
+      • Major: Engineering
+    </td>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/img_0847.jpg" width="300"><br>
+      <strong>Nathan Heavner</strong><br>
+      • Research: Porous Silicon Rocket<br>
+      • Year: Senior <br>
+      • Major: Engineering
+    </td>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/.JPG" width="300"><br>
+      <strong> Travis Boucher</strong><br>
+      • Research: Lab Technician <br>
+      • Year: Senior <br>
+      • Major: Engineering
+    </td>
+  </tr>
+</table>
