@@ -1,4 +1,4 @@
-## Student Researchers
+## Student Researchers 
 
 <table>
   <tr>
@@ -26,3 +26,28 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_0411.jpg" width="300"><br>
+      <strong> Andrew Tritle </strong><br>
+      • Research: Quantum Applications <br>
+      • Year: Senior<br>
+      • Major: Engineering
+    </td>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/.jpeg" width="300"><br>
+      <strong>Sally Thompson</strong><br>
+      • Research: Lung-on-a-Chip<br>
+      • Year: Senior <br>
+      • Major: Geology
+    </td>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/.JPG" width="300"><br>
+      <strong> Hunter Goggin </strong><br>
+      • Research: Lung-on-a-Chip<br>
+      • Year: Senior <br>
+      • Major: Computer Engineering
+    </td>
+  </tr>
+</table>
