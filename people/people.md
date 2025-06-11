@@ -1,8 +1,9 @@
 ## Faculty
 
-<table style="width:100%; border-collapse:collapse;">
+
+<table style="width:100%; border-collapse:collapse; margin: 0 auto;">
   <tr>
-    <td align="center" valign="top">
+    <td align="center" valign="top" style="text-align:center;">
       <img
         src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/jeff-jessing-e1633533901719.jpg"
         width="300"><br>
@@ -11,6 +12,7 @@
     </td>
   </tr>
 </table>
+
 
 ## Student Researchers
 
