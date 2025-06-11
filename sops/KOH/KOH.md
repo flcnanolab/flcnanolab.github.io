@@ -188,8 +188,10 @@ In case of eye contact:
     - If the solution is cloudy, it means that the KOH is still dissolving.
 - Add half a boat (~50 g of KOH) every 2 minutes.
   - Check temperature with a thermometer frequently to ensure solution stays below 90°C.
-  - If the solution is not clear or the temperature is >85°C, lower the hood and wait another 1-2 minutes before adding more KOH. 
+  - If the solution is not clear or the temperature is >85°C, lower the hood and wait another 1-2 minutes before adding more KOH.
+  
 ---
+
 ## **Setup after KOH is ready**
 
 - Suspend the KOH solution into the ISO bath using the Teflon-wrapped white beaker ring.
@@ -206,7 +208,9 @@ In case of eye contact:
   - The DI water level in the ISO bath must be above the KOH level during the entire etch.
   - **DO NOT ADD WATER TO KOH BATH DURING ETCH**
   - Now you wait until KOH reaches 90℃.
+  
 ---
+
 ## **Preparing the sample**
 
 - Measure the thickness of the wafer in the 5 designated spots (_Figure 11_) using a micrometer while you wait for the KOH solution to reach the desired temperature.
@@ -250,6 +254,7 @@ In case of eye contact:
 </div>
 
 ---
+
 ## **Beginning the etch**
 
 - Once the KOH bath reaches 90℃ and the temperatures stop increasing, set a 5-minute time to ensure the temperature is stable. 
@@ -262,7 +267,9 @@ In case of eye contact:
 - Make sure to check the KOH bath temperature every few minutes.
   - If the temperature is above 90 ℃, you can add cold DI water to the iso bath or adjust the hot plate temperature by 5 ℃.
   - If the temperature is below, you can open the fume hood more or adjust the hot plate settings.
-  - Keeping the temperatures stable is critical for determining an accurate etch rate and producing samples with smooth surfaces. 
+  - Keeping the temperatures stable is critical for determining an accurate etch rate and producing samples with smooth surfaces.
+  
+---
 
 ## **1-hour Pull**
 
@@ -302,6 +309,8 @@ Determining time needed to obtain desired thickness:
 - **E** = etch rate (μm/min)
 
 ### 🔴 _After here, either follow fishnet final pull (sub 5µm desired sample thickness) or the normal final pull procedure._ 
+
+---
 
 ## **Fishnet Final Pull**
 
@@ -367,6 +376,8 @@ Determining time needed to obtain desired thickness:
   - Sample ID is the date you fabricated the sample
   - Examples: 052925A, 052925B, etc. 
 
+---
+
 ## **Normal Final Pull**
 
 - 30 minutes prior to final pull:
@@ -406,9 +417,12 @@ Determining time needed to obtain desired thickness:
 - Dry the sample with the nitrogen gun.
 - Store membrane inside a wafer container and label with appropriate sample ID. 
   - Sample ID is the date you fabricated the sample
-  - Examples: 052925A, 052925B, etc. 
+  - Examples: 052925A, 052925B, etc.
+   
+---
 
 ## **Cleanup process**  
+
 - Switch off all hot plates and let them cool with the beakers on them for 10-15 min.
 - Clean the KOH cell while you wait. 
   - Gaskets should only be cleaned with DI water.
