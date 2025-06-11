@@ -83,7 +83,7 @@
       • Major: Engineering
     </td>
     <td align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/.JPG" width="300"><br>
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/img_0847.jpg" width="300"><br>
       <strong> Travis Boucher</strong><br>
       • Research: Lab Technician <br>
       • Year: Senior <br>
