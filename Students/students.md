@@ -1,3 +1,17 @@
+## Faculty 
+
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td align="center" valign="top">
+      <img
+        src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/jeff-jessing-e1633533901719.jpg"
+        width="300"><br>
+      <strong>Dr. Jeff Jessing </strong><br>
+      <em>Associate Professor of Physics & Engineering</em>
+    </td>
+  </tr>
+</table>
+
 ## Student Researchers 
 
 <table>
@@ -36,7 +50,7 @@
       • Major: Engineering
     </td>
     <td align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/.jpeg" width="300"><br>
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_3652.JPG" width="300"><br>
       <strong>Sally Thompson</strong><br>
       • Research: Lung-on-a-Chip<br>
       • Year: Senior <br>
