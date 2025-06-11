@@ -3,6 +3,7 @@ Fort Lewis College
 Lung-on-a-Chip
 
 **Author:** Sahra Genc 
+ 
 **Updated:** June 10, 2025
 
 # Potassium Hydroxide Thinning Procedure
@@ -37,14 +38,17 @@ In case of eye contact:
 - Contact your advisor promptly.   
 
 ---
+
 ## Important Notes Prior to Procedure 
 
 - The KOH process is expected to take 4 to 5 hours from start to finish.
 - The KOH process should be done with a partner who is familiar with the procedure for added safety and guidance.
 - Adhere to safety standards; avoid shortcuts.
 - Plan for 2 to 3 hours of downtime while the wafer is being etched. Consider bringing work or other tasks to occupy your time.
-- Every member participating in the KOH should have their clean room notebook ready to take notes. 
+- Every member participating in the KOH should have their clean room notebook ready to take notes.
+
 ---
+
 ## Preparing the KOH Setup 
 
 - Check the deionized (DI) water filter; water quality should read >15 MΩ.
@@ -115,7 +119,9 @@ In case of eye contact:
   <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture6.png" width="400"/>
   <p><strong>Figure 6:</strong> The setup prior to mixing KOH </p>
 </div>
+
 ---
+
 ## **Preparing the KOH**
 ### **_Measuring KOH_**
 
@@ -191,7 +197,7 @@ In case of eye contact:
 - Place a thermometer in the ISO bath and KOH solution (_Figure 10_). Make sure both the thermometers are at the same level.
 
  <div align="center">
-  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture10.jpg" width="400"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture10.jpg" width="500"/>
   <p><strong>Figure 10:</strong> Thermometers </p>
 </div>
 
@@ -222,7 +228,7 @@ In case of eye contact:
 - Now you are going to sandwich the wafer inside of the hard Polytetrafluoroethylene (PTFE) cell using expanded PTFE (ePTFE) gaskets to create a seal and avoid damaging the sample.
 
  <div align="center">
-  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture13.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture13.png" width="500"/>
   <p><strong>Figure 13:</strong> KOH sample cell  </p>
 </div>
 
@@ -239,11 +245,184 @@ In case of eye contact:
   - Attach the holder arm (_Figure 13a_). 
 
  <div align="center">
-  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture14.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture14.png" width="500"/>
   <p><strong>Figure 14:</strong> Orienting and securing the sample inside the KOH cell  </p>
 </div>
 
 ---
 ## **Beginning the etch**
+
+- Once the KOH bath reaches 90℃ and the temperatures stop increasing, set a 5-minute time to ensure the temperature is stable. 
+  - The KOH’s temperature should be stabilized at 90℃ and the ISO bath will be between 2 and 4℃ higher than the KOH bath.
+- Place the wafer holder in the KOH bath and press start on timer at the EXACT SAME TIME the exposed part of the wafer is submerged. 
+  - Ensure temperatures are stable and wafer is secure in the cell before submerging the sample. 
+- Now that the wafer is in, you will have 2-3 hours of downtime. 
+  - During this time, feel free to do other work.
+  - AT LEAST ONE person must always be present in the lab. Do not leave the experiment unattended. 
+- Make sure to check the KOH bath temperature every few minutes.
+  - If the temperature is above 90 ℃, you can add cold DI water to the iso bath or adjust the hot plate temperature by 5 ℃.
+  - If the temperature is below, you can open the fume hood more or adjust the hot plate settings.
+  - Keeping the temperatures stable is critical for determining an accurate etch rate and producing samples with smooth surfaces. 
+
+## **1-hour Pull**
+
+- This pull should be done with a sense of urgency. You want the sample to be out of the solution for the shortest duration of time possible.
+- 30 minutes prior to the 1 hour pull, fill the wide 1000 mL so there is enough water to submerge the sample in during this pull.
+- Fill the Iso bath right before this pull so the level of DI water does not go below the KOH level during this process.
+- Unclip the holder 10-15 seconds before the pull while closely watching the timer.
+  - If you miss the one hour pull, it is okay. Wait and pull the sample a whole minute later to make the etch rate calculations simple.
+- ake the sample out of the holder leaving just the ePTFE gaskets on the sample.
+- Dry with a nitrogen gun.
+- CAREFULLY measure the sample in three locations (A, C, E in _Figure 11_).
+  - **_If you are not gentle enough you will break the wafer!_**
+- Secure sample back in holder and place sample in the KOH solution. Remember to start a timer at the exact second the sample is submerged in the bath.
+
+### **_Calculations done after 1-hr pull_**
+
+Determining etch rate:
+
+ <div align="center">
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/19.png" width="200"/>
+</div>
+
+- **E** = etch rate (μm/min)  
+- **T₁** = average initial thickness (μm)  
+- **T₂** = average thickness post 1-hr etch (μm)  
+- **t** = total time of etch (min)
+
+Determining time needed to obtain desired thickness:
+
+ <div align="center">
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/20.png" width="200"/>
+</div>
+
+- **tᵣ** = amount of time remaining in the etch after 1-hr pull (min)  
+- **T₂** = average thickness post 1-hr etch (μm)  
+- **Td** = desired thickness (μm)  
+- **E** = etch rate (μm/min)
+
+### 🔴 _After here, either follow fishnet final pull (sub 5µm desired sample thickness) or the normal final pull procedure._ 
+
+## **Fishnet Final Pull**
+
+- For the fishnet procedure, calculate the desired thickness for a 10 µm membrane using the method outlined above.
+- About 30 minutes before reaching 10 µm thickness:
+  - Prepare the quench baths.
+  - Refill a 1000 mL beaker with DI water. This will be your first quench bath. Heat it to 80–90 °C.
+  - Place a clean KOH beaker half-filled with DI water on the secondary hot plate (see _Figure 15_). This will be your second quench bath. Heat it to 50–60 °C.
+
+   <div align="center">
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture15.png" width="300"/>
+  <p><strong>Figure 15:</strong> Secondary hot plate with two beakers 30 minutes prior to final pull </p>
+</div>
+
+  - Use a thermometer to frequently monitor both baths to ensure they stay within the target temperature ranges.
+- Set up a wafer carrier with a small circular piece of cleanroom wipe inside. This will hold the sample after the quench.
+- Grab the fishnet and PTFE screw (_Figure 16_).
+
+ <div align="center">
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture16.jpg" width="300"/>
+  <p><strong>Figure 16:</strong> Custom made PTFE fishnet and PTFE screw </p>
+</div>
+
+- Detach the sample cell from the clasp and carefully remove it.
+  - Have another person stop the KOH etching timer at the exact moment the sample is pulled.
+  - Hold the sample cell directly above the KOH beaker to avoid drips on the hot plate or counter.
+- Attach the fishnet to the third hole (from the top) of the sample holder arm using the PTFE screw (_Figure 17_).
+
+ <div align="center">
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture17.jpeg" width="300"/>
+  <p><strong>Figure 17:</strong> Custom made PTFE fishnet and PTFE screw attached to KOH cell </p>
+</div>
+
+- Place the sample holder (now with fishnet attached) back into the KOH solution and restart the timer immediately.
+- About 5 minutes before reaching 10 µm thickness:
+  - Turn off the lab and fume hood lights.
+  - Use a flashlight to backlight the KOH cell:
+    - Hold the light behind the KOH beaker and align the beam with the cell opening.
+    - Observe the light transmitted through the sample:
+      - Dark red: ~25 µm
+      - Orange: ~15 µm
+      - Yellow: <5 µm
+- Monitor the transmitted light color frequently until the target thickness is reached.
+- If targeting a sub-5 µm sample:
+  - The sample will punch out from the holder:
+    - Be prepared to pull the holder out immediately, otherwise the free-floating membrane may fully dissolve in the KOH.
+    - Slowly pull the holder out, ensuring the fishnet catches the punched-out piece.
+    - The detached piece should rest on the fishnet.
+- Carefully detach the fishnet from the holder.
+- Gently place the fishnet into the first (hotter) quench bath.
+   - The membrane will float on the surface; let it sit undisturbed for ~30 seconds.
+   - Slowly lift the fishnet while ensuring the sample remains on the net.
+   - Transfer the fishnet into the second (cooler) quench bath.
+    - Let the sample soak for 1–2 minutes.
+    - Be quick if the sample is extremely thin.
+- After quenching, lift the fishnet and position the sample near an edge for easy access.
+- Use tweezers to gently transfer the sample to the prepared wafer carrier with the cleanroom wipe.
+- Dry the sample with a nitrogen gun. 
+  - Set the nitrogen gun to the lowest possible flow.
+  - Do not point it directly at the sample.
+  - Instead, blow gently around the sample to avoid damaging the sample.
+- Label the wafer carrier with appropriate sample ID. 
+  - Sample ID is the date you fabricated the sample
+  - Examples: 052925A, 052925B, etc. 
+
+## **Normal Final Pull**
+
+- 30 minutes prior to final pull:
+  - Refill 1000 mL beaker with DI.
+    - This will be used as your first quench bath.
+    - This bath needs to be 80-90℃.
+  - Place a clean KOH beaker filled halfway with DI water on the secondary hotplate (_Figure 15_).
+    - This beaker will be used as your second quench bath.
+    - This bath needs to be 50-60℃.
+- 5 minutes till pull time, gear up so you can make sure to pull it out at the correct time.
+- At pull time, CAREFULLY pull wafer out and put into the 1st quench bath.
+  - DO NOT laterally sway the wafer in the KOH or quench bath.
+  - There is a chance it will blow out the thinned region.
+  - Keep in 1st quench for 1 minute.
+- Place in second quench bath for 3 minutes. 
+  - If you want to move this beaker out of the hood, hold the sample holder arm and the beaker and move slowly to avoid damaging the sample.
+- Remove the hard PTFE cell.
+  - Carefully unscrew the PTFE bolts. Be cautious, the cell may still be hot.
+- Rinse sample inside ePTFE gaskets in flowing room temperature DI water for 30 seconds.
+  - **_Important:_** ePTFE gaskets tend to stick strongly to the wafer. Follow the steps below carefully to avoid breaking the wafer (see _Figure 18_):
+    - Keep the second quench beaker nearby.
+    - Submerge the sample (still attached to the ePTFE gaskets) into the second quench beaker using tweezers. You should see air bubbles escaping from beneath the gaskets.
+    - Remove it from the quench beaker and place it flat down on a cleanroom wipe.
+    - Gently press the edges of the gasket with your thumb and index finger.
+    - With your other hand, take the tweezers and carefully slide the bottom arm of the tweezers between the sample and the top ePTFE gasket.
+    - Insert the tweezers about 1 cm underneath the gasket and then slide along the gasket edge to the left or right.
+    - If resistance is felt, stop pushing! Pinch the ePTFE gasket with the tweezers, submerge it back into the second quench beaker, and wait a few seconds before continuing.
+    - Repeat the sliding motion until the top gasket is fully detached.
+    - Repeat the process to remove the bottom gasket, but make sure the bottom gasket is resting on the cleanroom wipe not the sample.
+
+
+ <div align="center">
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/KOHsop/Picture18.png" width="600"/>
+  <p><strong>Figure 18:</strong> Steps to detach ePTFE from the wafer</p>
+</div>
+
+- Dry the sample with the nitrogen gun.
+- Store membrane inside a wafer container and label with appropriate sample ID. 
+  - Sample ID is the date you fabricated the sample
+  - Examples: 052925A, 052925B, etc. 
+
+## **Cleanup process**  
+- Switch off all hot plates and let them cool with the beakers on them for 10-15 min.
+- Clean the KOH cell while you wait. 
+  - Gaskets should only be cleaned with DI water.
+  - Clean the hard PTFE arm and cell with solvents. 
+- Carefully remove KOH beaker from the ISO bath.
+- Cover with KOH beaker with foil and label foil KOH. 
+  - Keep this in the fume hood and let it cool before disposing in the base and solvent waste container. NEVER DISPOSE OF HOT KOH!
+    - If the container has no solvents inside then it is CORROSIVE waste, if there are solvents in the container then it is FLAMMABLE waste.
+    - All waste must be logged onto the proper waste sheet including the type of waste, amount of waste, and date the waste was added to the container.
+- KOH glassware ONLY should be scrubbed with soap, rinsed heavily with DI water, then solvent cleaned.
+  - Change gloves between soap and solvent cleaning.
+- MAKE SURE N2 is turned off, and all glassware is returned to its designated place.
+  - DO NOT put this glassware on the gray glassware rack but instead put it on the glassware shelf that is designated to LoaC group. 
+- You are done and free to leave the lab! 
+  - Come next day to dispose the room temperature KOH in the waste container for bases. 
 
 
