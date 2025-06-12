@@ -1,18 +1,25 @@
 ## Faculty
 
-
-<table style="width:100%; border-collapse:collapse; margin: 0 auto;">
+<table>
   <tr>
-    <td align="center" valign="top" style="text-align:center;">
-      <img
-        src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/jeff-jessing-e1633533901719.jpg"
-        width="300"><br>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/jeff-jessing-e1633533901719.jpg" width="300"><br>
       <strong>Dr. Jeff Jessing</strong><br>
-      <em>Associate Professor of Physics & Engineering</em>
+      Director of FLC Nano Lab<br>
+      Associate Professor of Physics & Engineering<br>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/LeahImage.png" width="300"><br>
+      <strong>Leah Hale</strong><br>
+      PEAQS & STROBE Grant Coordinator<br>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_7191.jpg" width="300"><br>
+      <strong>Bailey Hale</strong><br>
+      Happiness Coordinator<br>
     </td>
   </tr>
 </table>
-
 
 ## Student Researchers
 
@@ -85,11 +92,11 @@
       • Major: Engineering
     </td>
     <td align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/img_0847.jpg" width="300"><br>
-      <strong>Travis Boucher</strong><br>
-      • Research: Lab Technician<br>
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_2889.JPG" width="300"><br>
+      <strong>Lethicia Calderon</strong><br>
+      • Research: Porous Silicon Rocket<br>
       • Year: Senior<br>
-      • Major: Engineering
+      • Major: Computer Engineering
     </td>
   </tr>
 </table>
