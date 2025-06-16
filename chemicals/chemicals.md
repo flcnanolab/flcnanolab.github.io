@@ -21,7 +21,7 @@
 | Ethanol | Solvent | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | HMDS| Adhesion Promoter | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | Hydrofluoric Acid |Etchant| Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
-| MIBK | Developer | Flammable Cabinet | Flammable, Toxic | |[SDS](https://www.nano.pitt.edu/sites/default/files/MSDS/Developers/MBIKIPA%20MSDS.pdf) |
+| MIBK | Developer | Flammable Cabinet | Flammable, Toxic | https://productcatalog.eastman.com/tds/ProdDatasheet.aspx?product=71001084&pn=methyl-isobutyl-ketone |[SDS](https://www.nano.pitt.edu/sites/default/files/MSDS/Developers/MBIKIPA%20MSDS.pdf) |
 | Methanol | Solvent | Solvent Cabinet Bottom Shelf | Toxic, Flammable | [Datasheet](https://www.fishersci.com/shop/products/methanol-certified-acs-fisher-chemical-10/A43420?searchHijack=true&searchTerm=methanol-certified-acs-fisher-chemical-10&searchType=Rapid&matchedCatNo=A43420) | [SDS](https://www.fishersci.com/store/msds?partNumber=A43420&productDescription=METHANOL+ACS+IN+SPEC+20L+DRUM&vendorId=VN00033897&countryCode=US&language=en) |
 | Nitrogen | Utility Gases | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | PND Etch | Etchant | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
