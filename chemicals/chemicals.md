@@ -3,7 +3,7 @@
 | Name | Category | Location | Hazards | Datasheet | SDS |
 |------|----------|----------|---------|-----------|-----|
 | 2-Propanol | Solvent | Solvent Cabinet Top Shelf | Flammable | [Datasheet](https://www.fishersci.com/shop/products/acetone-certified-acs-fisher-chemical-12/A181) | [SDS](https://www.fishersci.com/store/msds?partNumber=A181&productDescription=ACETONE+CERTIFIED+ACS+1L&vendorId=VN00033897&countryCode=US&language=en) |
-| 950 PMMA | E-beam Resist | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
+| 950 PMMA | E-beam Resist | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://kayakuam.com/wp-content/uploads/2019/09/PMMA_Data_Sheet.pdf) |[SDS](https://kayakuam.com/wp-content/uploads/2019/08/SDS_950-PMMA-Series-Resists-in-Chlorobenzene_-_US.pdf) |
 | Acetone | Solvent | Solvent Cabinet Bottom Shelf | Flammable | [Datasheet](https://www.fishersci.com/shop/products/acetone-certified-acs-fisher-chemical-12/A18P4?searchHijack=true&searchTerm=acetone-certified-acs-fisher-chemical-12&searchType=Rapid&matchedCatNo=A18P4) | [SDS](https://www.fishersci.com/store/msds?partNumber=A18P4&productDescription=ACETONE+ACS+4L&vendorId=VN00033897&countryCode=US&language=en) |
 | Al Etchant Type A | Metal Etchant  | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | AZ® 1512 Photoresist (Positive Tone) | Photoresist | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://www.microchemicals.com/dokumente/datenblaetter/tds/merck/en/tds_az_1500_series.pdf) | |
@@ -21,7 +21,7 @@
 | Ethanol | Solvent | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | HMDS| Adhesion Promoter | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | Hydrofluoric Acid |Etchant| Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
-| MIBK | Developer | Flammable Cabinet | Flammable, Toxic | [Datasheet]https://productcatalog.eastman.com/tds/ProdDatasheet.aspx?product=71001084&pn=methyl-isobutyl-ketone |[SDS](https://www.nano.pitt.edu/sites/default/files/MSDS/Developers/MBIKIPA%20MSDS.pdf) |
+| MIBK | Developer | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://productcatalog.eastman.com/tds/ProdDatasheet.aspx?product=71001084&pn=methyl-isobutyl-ketone) |[SDS](https://www.nano.pitt.edu/sites/default/files/MSDS/Developers/MBIKIPA%20MSDS.pdf) |
 | Methanol | Solvent | Solvent Cabinet Bottom Shelf | Toxic, Flammable | [Datasheet](https://www.fishersci.com/shop/products/methanol-certified-acs-fisher-chemical-10/A43420?searchHijack=true&searchTerm=methanol-certified-acs-fisher-chemical-10&searchType=Rapid&matchedCatNo=A43420) | [SDS](https://www.fishersci.com/store/msds?partNumber=A43420&productDescription=METHANOL+ACS+IN+SPEC+20L+DRUM&vendorId=VN00033897&countryCode=US&language=en) |
 | Nitrogen | Utility Gases | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | PND Etch | Etchant | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
