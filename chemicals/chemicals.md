@@ -23,9 +23,9 @@
 | Hydrofluoric Acid |Etchant| Flammable Cabinet | Toxic, Corrosive | [Datasheet](https://www.sigmaaldrich.com/US/en/product/mm/101513) |[SDS](https://www.sigmaaldrich.com/US/en/sds/sigald/339261?userType=undefined) |
 | MIBK | Developer | Solvent Cabinet Bottom Shelf | Flammable, Toxic | [Datasheet](https://productcatalog.eastman.com/tds/ProdDatasheet.aspx?product=71001084&pn=methyl-isobutyl-ketone) |[SDS](https://www.nano.pitt.edu/sites/default/files/MSDS/Developers/MBIKIPA%20MSDS.pdf) |
 | Methanol | Solvent | Solvent Cabinet Bottom Shelf | Toxic, Flammable | [Datasheet](https://www.fishersci.com/shop/products/methanol-certified-acs-fisher-chemical-10/A43420?searchHijack=true&searchTerm=methanol-certified-acs-fisher-chemical-10&searchType=Rapid&matchedCatNo=A43420) | [SDS](https://www.fishersci.com/store/msds?partNumber=A43420&productDescription=METHANOL+ACS+IN+SPEC+20L+DRUM&vendorId=VN00033897&countryCode=US&language=en) |
-| Nitrogen | Utility Gases | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
-| PND Etch | Etchant | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
-| Potassium Hydroxide | Etchant | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
+| Nitrogen | Utility Gases | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://static.prd.echannel.linde.com/wcsstore/EE_REN_Industrial_Gas_Store/pdf/Downloadable%20files/Nitrogen%20datasheet%20EN.pdf) |[SDS](https://www.airgas.com/msds/001040.pdf) |
+| PND Etch | Etchant | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://transene.com/wright/) |[SDS](https://transene.com/wright/) |
+| Potassium Hydroxide | Etchant | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://pubchem.ncbi.nlm.nih.gov/compound/Potassium-Hydroxide) |[SDS](https://www.sigmaaldrich.com/US/en/sds/sigald/p5958?srsltid=AfmBOop4BpyPolr1BlCbI1F9oq_Mku5JW2g_1W60DrQ5-9qyONK_Zdt1) |
 | Sodium Bicarbonate| Base/Neutralizing Agent | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | Sodium Perchlorate| Oxidizer | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
 | SU-8 2000 Thinner | Resist Thinner | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS](https://kayakuam.com/wp-content/uploads/2019/08/SDS_SU-8-2000-Thinner_-_EU.pdf) |
