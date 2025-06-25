@@ -26,12 +26,12 @@
 | Nitrogen | Utility Gases | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://static.prd.echannel.linde.com/wcsstore/EE_REN_Industrial_Gas_Store/pdf/Downloadable%20files/Nitrogen%20datasheet%20EN.pdf) |[SDS](https://www.airgas.com/msds/001040.pdf) |
 | PND Etch | Etchant | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://transene.com/wright/) |[SDS](https://transene.com/wright/) |
 | Potassium Hydroxide | Etchant | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://pubchem.ncbi.nlm.nih.gov/compound/Potassium-Hydroxide) |[SDS](https://www.sigmaaldrich.com/US/en/sds/sigald/p5958?srsltid=AfmBOop4BpyPolr1BlCbI1F9oq_Mku5JW2g_1W60DrQ5-9qyONK_Zdt1) |
-| Sodium Bicarbonate| Base/Neutralizing Agent | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
-| Sodium Perchlorate| Oxidizer | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS]() |
-| SU-8 2000 Thinner | Resist Thinner | Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS](https://kayakuam.com/wp-content/uploads/2019/08/SDS_SU-8-2000-Thinner_-_EU.pdf) |
+| Sodium Bicarbonate| Base/Neutralizing Agent | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-Bicarbonate) |[SDS](https://files.dep.state.pa.us/OilGas/BOGM/BOGMPortalFiles/IndustryResources/InformationalResources/HDD_Saftey_Data_Sheets/Sodium_Bicarbonate_SDS.pdf) |
+| Sodium Perchlorate| Oxidizer | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-Perchlorate) |[SDS](https://www.geneseo.edu/sites/default/files/users/247/Sodium%20perchlorate.pdf) |
+| SU-8 2000 Thinner | Resist Thinner | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://kayakuam.com/wp-content/uploads/2019/09/SU-82000DataSheet2000_5thru2015Ver4.pdf) |[SDS](https://kayakuam.com/wp-content/uploads/2019/08/SDS_SU-8-2000-Thinner_-_EU.pdf) |
 | SU-8 2050 | Photoresist | Flammable Cabinet | Flammable, Toxic | [Datasheet](https://kayakuam.com/wp-content/uploads/2020/08/KAM-SU-8-2000-2025-2075-Datasheet.8.19.20-final.pdf) |[SDS](https://kayakuam.com/wp-content/uploads/2019/08/SDS_SU-8-2000-Series-Resists_-_GB.pdf) |
-| SU-8 Developer | Developer| Flammable Cabinet | Flammable, Toxic | [Datasheet]() |[SDS](https://kayakuam.com/wp-content/uploads/2019/08/SDS_SU-8-Developer_-_EU.pdf) |
-| Ultra High Purity Argon | Process Gas | Chase | High Pressure | [Datasheet]() |[SDS]() |
-| Ultra High Purity Oxygen | Process Gas | Chase | High Pressure, Flammable | [Datasheet]() |[SDS]() |
-| Ultra High Purity Nitrogen | Process Gas | Chase | High Pressure | [Datasheet]() |[SDS]() |
+| SU-8 Developer | Developer| Flammable Cabinet | Flammable, Toxic | [Datasheet](http://www.nano.pitt.edu/sites/default/files/MSDS/Developers/SU8%20developer.PDF) |[SDS](https://kayakuam.com/wp-content/uploads/2019/08/SDS_SU-8-Developer_-_EU.pdf) |
+| Ultra High Purity Argon | Process Gas | Chase | High Pressure | [Datasheet](https://www.airgas.com/product/Gases/Argon/p/AR%20UHP300) |[SDS](https://www.middlesexgases.com/wp-content/uploads/2020/10/Argon-UHP-SDS-by-MiddlesexGases.pdf) |
+| Ultra High Purity Oxygen | Process Gas | Chase | High Pressure, Flammable | [Datasheet](https://www.airgas.com/product/Gases/Oxygen/p/OX%20UHP80) |[SDS](https://www.airgas.com/msds/001043.pdf) |
+| Ultra High Purity Nitrogen | Process Gas | Chase | High Pressure | [Datasheet](https://www.airgas.com/product/Gases/Nitrogen/p/NI%20UHP300) |[SDS](http://www.nano.pitt.edu/sites/default/files/MSDS/Gas/NITROGEN-UHP.pdf) |
 
