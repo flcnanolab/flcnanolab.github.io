@@ -168,6 +168,12 @@ This standardized process can be used for all mask steps with appropriate parame
        10. Press "EXPOSURE" (never look directly at the UV light).
    11. Move the contact lever back 180° clockwise to release the wafer from the mask. The contact indicator should go out.
    12. Pull the transport slide and remove the wafer from the chuck.
+
+   <div align="center">
+  <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/sops/ThermalOx/Images/Layer 1.png" width="1200"/>
+  <p><strong>Figure 1:</strong> Orientation of the masks on the mask holder in order to align </p>
+</div>
+
 4. **Post Exposure Bake** (AZ® nLOF™ 2020 ONLY)
 
    1. Transfer to hot plate.
