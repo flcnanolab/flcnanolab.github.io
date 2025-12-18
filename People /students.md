@@ -17,33 +17,7 @@
 <table>
   <tr>
     <td align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_8115.jpeg" width="300"><br>
-      <strong>Sahra Genc</strong><br>
-      • Research: Lung-on-a-Chip, PMOS<br>
-      • Year: Graduate<br>
-      • Major: Computer Engineering
-    </td>
-    <td align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_6848.jpeg" width="300"><br>
-      <strong>Leif Gislason</strong><br>
-      • Research: Lung-on-a-Chip, PMOS<br>
-      • Year: Graduate <br>
-      • Major: Engineering
-    </td>
-    <td align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_5826.JPG" width="300"><br>
-      <strong>Ian Van Horn</strong><br>
-      • Research: PMOS<br>
-      • Year: Graduate <br>
-      • Major: Computer Engineering
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_0411.jpg" width="300"><br>
+      <img src="https://github.com/flcnanolab/flcnanolab.github.io/blob/main/ImagesForWeb/Students/IMG_0411.jpg" width="300"><br>
       <strong> Andrew Tritle </strong><br>
       • Research: Quantum Applications <br>
       • Year: Senior<br>
@@ -62,6 +36,32 @@
       • Research: Lung-on-a-Chip<br>
       • Year: Senior <br>
       • Major: Computer Engineering
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="James Lopez_profilepic" width="300"><br>
+      <strong>James Lopez</strong><br>
+      • Research: Quantum Applications<br>
+      • Year: Sophomore<br>
+      • Major: Computer Engineering
+    </td>
+    <td align="center" valign="top">
+      <img src="Sarah Grenemyer_profilepic" width="300"><br>
+      <strong>Sarah Grenemyer</strong><br>
+      • Research: Lung-on-a-Chip<br>
+      • Year: Junior<br>
+      • Major: Engineering
+    </td>
+    <td align="center" valign="top">
+      <img src="Gray Mason_profilepic" width="300"><br>
+      <strong>Gray Mason</strong><br>
+      • Research: To Be Determined<br>
+      • Year: Sophomore<br>
+      • Major: Engineering
     </td>
   </tr>
 </table>
@@ -91,3 +91,32 @@
     </td>
   </tr>
 </table>
+
+## Alumni
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_8115.jpeg" width="300"><br>
+      <strong>Sahra Genc</strong><br>
+      • Research: Lung-on-a-Chip, PMOS<br>
+      • Year: Graduate<br>
+      • Major: Computer Engineering
+    </td>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_6848.jpeg" width="300"><br>
+      <strong>Leif Gislason</strong><br>
+      • Research: Lung-on-a-Chip, PMOS<br>
+      • Year: Graduate <br>
+      • Major: Engineering
+    </td>
+    <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_5826.JPG" width="300"><br>
+      <strong>Ian Van Horn</strong><br>
+      • Research: PMOS<br>
+      • Year: Graduate <br>
+      • Major: Computer Engineering
+    </td>
+  </tr>
+</table>
+
