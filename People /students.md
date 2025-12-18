@@ -95,6 +95,12 @@
       • Major: Engineering
     </td>
   </tr>
+     <td align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/IMG_2889.JPG" width="300"><br>
+      <strong>Lethicia Calderon</strong><br>
+      • Research: Lung-on-a-Chip<br>
+      • Year: Senior<br>
+      • Major: Computer Engineering
 </table>
 
 ## Alumni
@@ -122,6 +128,7 @@
       • Year: Graduate <br>
       • Major: Computer Engineering
     </td>
+    
   </tr>
 </table>
 
