@@ -9,7 +9,12 @@
       <strong>Dr. Jeff Jessing </strong><br>
       <em>Associate Professor of Physics & Engineering</em>
     </td>
-  </tr>
+    <td align="center" valign="top">
+      <img
+        src="https://github.com/flcnanolab/flcnanolab.github.io/blob/main/ImagesForWeb/Students/headshot.jpg"
+        width="300"><br>
+      <strong>Jaimee McCullough </strong><br>
+      <em>PEAQs Grant Coordinator</em>
 </table>
 
 ## Student Researchers 
