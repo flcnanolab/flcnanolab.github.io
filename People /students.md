@@ -57,7 +57,7 @@
       • Major: Geology
     </td>
     <td align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/flcnanolab/flcnanolab.github.io/main/ImagesForWeb/Students/PSEB6933 (2).jpg" width="300"><br>
+      <img src="https://github.com/flcnanolab/flcnanolab.github.io/blob/main/ImagesForWeb/Students/hunternew.jpg" width="300"><br>
       <strong> Hunter Goggin </strong><br>
       • Research: Lung-on-a-Chip<br>
       • Year: Senior <br>
