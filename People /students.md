@@ -50,7 +50,7 @@
       • Major: Computer Engineering
     </td>
     <td align="center" valign="top">
-      <img src="Sarah Grenemyer_profilepic" width="300"><br>
+      <img src="https://github.com/flcnanolab/flcnanolab.github.io/blob/main/ImagesForWeb/Students/FLC-Golf-4618.JPG" width="300"><br>
       <strong>Sarah Grenemyer</strong><br>
       • Research: Lung-on-a-Chip<br>
       • Year: Junior<br>
