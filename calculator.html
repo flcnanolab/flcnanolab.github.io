@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fort Lewis College Nano Lab - Calculators</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Add MathJax for rendering mathematical expressions -->
   <script type="text/javascript" id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
@@ -18,7 +17,7 @@
       --white: #ffffff;
       --text: #333333;
     }
-    
+
     body {
       font-family: 'Helvetica Neue', Arial, sans-serif;
       margin: 0;
@@ -27,25 +26,25 @@
       color: var(--text);
       line-height: 1.6;
     }
-    
+
     header {
       background: var(--primary-dark);
       color: var(--white);
       padding: 20px 0;
       text-align: center;
     }
-    
+
     header h1 {
       margin: 0;
       font-size: 2.5em;
     }
-    
+
     header p {
       margin: 5px 0 0;
       color: var(--accent);
       font-size: 1.2em;
     }
-    
+
     .container {
       display: flex;
       max-width: 1200px;
@@ -53,7 +52,7 @@
       padding: 20px;
       background: var(--white);
     }
-    
+
     .sidebar {
       width: 250px;
       background: var(--white);
@@ -61,11 +60,11 @@
       border-right: 1px solid #e0e0e0;
       box-shadow: 0 0 5px rgba(0,0,0,0.05);
     }
-    
+
     .sidebar-section {
       margin-bottom: 30px;
     }
-    
+
     .sidebar-section h3 {
       margin-top: 0;
       padding-bottom: 8px;
@@ -73,17 +72,17 @@
       color: var(--primary-dark);
       font-size: 1.1em;
     }
-    
+
     .sidebar-section ul {
       list-style-type: none;
       padding: 0;
       margin: 0;
     }
-    
+
     .sidebar-section ul li {
       margin-bottom: 8px;
     }
-    
+
     .sidebar-section ul li a {
       text-decoration: none;
       color: var(--text);
@@ -91,17 +90,17 @@
       display: block;
       padding: 5px 0;
     }
-    
+
     .sidebar-section ul li a:hover {
       color: var(--primary-dark);
     }
-    
+
     .main-content {
       flex: 1;
       padding: 20px;
       background: var(--white);
     }
-    
+
     footer {
       background: var(--primary-dark);
       color: var(--white);
@@ -129,6 +128,15 @@
       color: var(--primary-dark);
       font-size: 1.2em;
     }
+
+    .hint {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
   </style>
 </head>
 <body>
@@ -136,7 +144,7 @@
     <h1>Fort Lewis College Nano Lab</h1>
     <p>Process Calculators</p>
   </header>
-  
+
   <div class="container">
     <div class="sidebar" id="sidebar">
       <div class="sidebar-section">
@@ -151,7 +159,7 @@
           <li><a href="webcam.html">Webcam</a></li>
         </ul>
       </div>
-      
+
       <div class="sidebar-section">
         <h3>Calculator Tools</h3>
         <ul>
@@ -162,7 +170,7 @@
         </ul>
       </div>
     </div>
-    
+
     <div class="main-content">
       <h2 class="mb-4">Nanofabrication Calculators</h2>
 
@@ -189,7 +197,80 @@
           </form>
         </div>
       </div>
-      
+
+      <!-- Oxide Thickness Calculator -->
+      <div class="card calculator-card" id="oxide-thickness">
+        <div class="card-header">
+          Oxide Thickness Calculator (Deal–Grove)
+        </div>
+        <div class="card-body">
+          <p>
+            Computes final oxide thickness using the Deal–Grove model:
+            <span class="mono">x² + A·x = B·(t + τ)</span>, where <span class="mono">τ = (x0² + A·x0)/B</span>.
+          </p>
+          <p class="hint">
+            Units here are <strong>nm</strong> and <strong>minutes</strong>. You can use the preset A/B (placeholders) or enter your manual’s values.
+          </p>
+
+          <form id="oxideForm">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="oxideTimeMin">Oxidation Time (minutes):</label>
+                  <input type="number" class="form-control" id="oxideTimeMin" placeholder="e.g., 45" min="0" step="0.1">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="x0nm">Initial Oxide x₀ (nm):</label>
+                  <input type="number" class="form-control" id="x0nm" placeholder="e.g., 20 (200 Å)" min="0" step="0.01">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="oxidePreset">Preset (optional):</label>
+                  <select class="form-control" id="oxidePreset" onchange="applyOxidePreset()">
+                    <option value="">Custom (enter A and B)</option>
+                    <option value="dry_1000">Dry O₂ @ 1000°C (placeholder)</option>
+                    <option value="wet_1000">Wet (steam) @ 1000°C (placeholder)</option>
+                    <option value="dry_1100">Dry O₂ @ 1100°C (placeholder)</option>
+                    <option value="wet_1100">Wet (steam) @ 1100°C (placeholder)</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="Anm">Linear Constant A (nm):</label>
+                  <input type="number" class="form-control" id="Anm" placeholder="Enter A (nm)" min="0" step="0.0001">
+                  <small class="hint">A has units of length (nm).</small>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="Bnm2min">Parabolic Constant B (nm²/min):</label>
+                  <input type="number" class="form-control" id="Bnm2min" placeholder="Enter B (nm²/min)" min="0" step="0.0001">
+                  <small class="hint">B has units of length²/time (nm²/min).</small>
+                </div>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="calculateOxide()">Calculate</button>
+
+            <div class="mt-3">
+              <p>Final Oxide Thickness x(t): <span id="oxideResult" class="calculator-result">-</span> nm</p>
+              <p class="hint">
+                Also: x(t) − x₀ = <span id="oxideAdded" class="calculator-result">-</span> nm,
+                τ = <span id="oxideTau" class="calculator-result">-</span> min
+              </p>
+              <p class="hint" id="oxideError" style="color:#b00020; font-weight:600;"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+
       <!-- Etch Rate Calculator -->
       <div class="card calculator-card" id="etch-rate">
         <div class="card-header">
@@ -224,75 +305,134 @@
           </form>
         </div>
       </div>
+
     </div>
   </div>
-  
+
   <footer>
     <div>FLC NanoLab - <span id="footer-update">Updated: April 2025</span></div>
     <div>Contact <a href="mailto:lascheer@fortlewis.edu" style="color: white;">us</a> with any corrections or suggestions.</div>
   </footer>
 
   <script>
-    // Show/hide appropriate fields in etch calculator
-    document.querySelectorAll('input[name="etchCalcType"]').forEach(radio => {
-      radio.addEventListener('change', function() {
-        if (this.value === 'time') {
-          document.getElementById('targetThicknessGroup').style.display = 'block';
-          document.getElementById('etchTimeGroup').style.display = 'none';
-          document.getElementById('etchResultLabel').textContent = 'Required Etch Time: ';
-        } else {
-          document.getElementById('targetThicknessGroup').style.display = 'none';
-          document.getElementById('etchTimeGroup').style.display = 'block';
-          document.getElementById('etchResultLabel').textContent = 'Resulting Thickness: ';
-        }
-      });
-    });
-
-    // Exposure Time Calculator
+    // ---------------- Exposure Time Calculator ----------------
     function calculateExposure() {
       const dose = parseFloat(document.getElementById('requiredDose').value);
       const intensity = parseFloat(document.getElementById('measuredIntensity').value);
-      
+
       if (isNaN(dose) || isNaN(intensity) || intensity === 0) {
         document.getElementById('exposureResult').textContent = 'Error';
         return;
       }
-      
+
       const exposureTime = dose / intensity;
       document.getElementById('exposureResult').textContent = exposureTime.toFixed(1);
     }
-    
-    // Etch Calculator
+
+    // ---------------- Etch Calculator ----------------
     function calculateEtch() {
       const originalMinutes = parseFloat(document.getElementById('originalTime').value) || 0;
       const originalSeconds = parseFloat(document.getElementById('originalSeconds').value) || 0;
       const percentExtra = parseFloat(document.getElementById('percentExtra').value);
-      
+
       if (isNaN(percentExtra)) {
         document.getElementById('etchResult').textContent = 'Error';
         document.getElementById('extraTimeAdded').textContent = 'Error';
         return;
       }
-      
-      // Convert everything to seconds for calculation
+
       const totalOriginalSeconds = originalMinutes * 60 + originalSeconds;
       const extraSeconds = totalOriginalSeconds * (percentExtra / 100);
       const totalSeconds = totalOriginalSeconds + extraSeconds;
-      
-      // Convert back to minutes and seconds for display
+
       const resultMinutes = Math.floor(totalSeconds / 60);
       const resultSeconds = Math.round(totalSeconds % 60);
-      
-      // Calculate extra time added in minutes and seconds
+
       const extraMinutes = Math.floor(extraSeconds / 60);
       const extraSecondsRemainder = Math.round(extraSeconds % 60);
-      
-      // Format results
-      document.getElementById('etchResult').textContent = 
+
+      document.getElementById('etchResult').textContent =
           `${resultMinutes} min ${resultSeconds} sec`;
-      document.getElementById('extraTimeAdded').textContent = 
+      document.getElementById('extraTimeAdded').textContent =
           `${extraMinutes} min ${extraSecondsRemainder} sec (${percentExtra}%)`;
+    }
+
+    // ---------------- Oxide Thickness (Deal–Grove) ----------------
+    // NOTE: Presets below are placeholders. Replace A/B with your lab manual’s values.
+    const oxidePresets = {
+      // A in nm, B in nm^2/min
+      dry_1000:  { A: 120.0,  B: 90.0  },   // placeholder
+      wet_1000:  { A: 50.0,   B: 400.0 },   // placeholder
+      dry_1100:  { A: 80.0,   B: 180.0 },   // placeholder
+      wet_1100:  { A: 35.0,   B: 650.0 }    // placeholder
+    };
+
+    function clearOxideError() {
+      document.getElementById('oxideError').textContent = '';
+    }
+
+    function setOxideError(msg) {
+      document.getElementById('oxideError').textContent = msg;
+    }
+
+    function applyOxidePreset() {
+      clearOxideError();
+
+      const key = document.getElementById('oxidePreset').value;
+      if (!key) return;
+
+      const p = oxidePresets[key];
+      if (!p) return;
+
+      document.getElementById('Anm').value = p.A;
+      document.getElementById('Bnm2min').value = p.B;
+    }
+
+    function calculateOxide() {
+      clearOxideError();
+
+      const t = parseFloat(document.getElementById('oxideTimeMin').value);
+      const x0 = parseFloat(document.getElementById('x0nm').value);
+      const A = parseFloat(document.getElementById('Anm').value);
+      const B = parseFloat(document.getElementById('Bnm2min').value);
+
+      if (isNaN(t) || isNaN(x0) || isNaN(A) || isNaN(B)) {
+        setOxideError('Please enter time, x₀, A, and B.');
+        document.getElementById('oxideResult').textContent = 'Error';
+        document.getElementById('oxideAdded').textContent = 'Error';
+        document.getElementById('oxideTau').textContent = 'Error';
+        return;
+      }
+
+      if (t < 0 || x0 < 0 || A < 0 || B <= 0) {
+        setOxideError('Values must be non-negative, and B must be > 0.');
+        document.getElementById('oxideResult').textContent = 'Error';
+        document.getElementById('oxideAdded').textContent = 'Error';
+        document.getElementById('oxideTau').textContent = 'Error';
+        return;
+      }
+
+      // τ = (x0^2 + A*x0) / B
+      const tau = (x0 * x0 + A * x0) / B;
+
+      // Solve x^2 + A*x = B*(t + tau)  ->  x = (-A + sqrt(A^2 + 4*B*(t+tau)))/2
+      const inside = A * A + 4.0 * B * (t + tau);
+      if (inside < 0) {
+        setOxideError('Math error: negative discriminant (check A/B units).');
+        document.getElementById('oxideResult').textContent = 'Error';
+        document.getElementById('oxideAdded').textContent = 'Error';
+        document.getElementById('oxideTau').textContent = 'Error';
+        return;
+      }
+
+      const x = (-A + Math.sqrt(inside)) / 2.0;
+      const added = x - x0;
+
+      document.getElementById('oxideResult').textContent = x.toFixed(2);
+      document.getElementById('oxideAdded').textContent = added.toFixed(2);
+      document.getElementById('oxideTau').textContent = tau.toFixed(2);
     }
   </script>
 </body>
 </html>
+
